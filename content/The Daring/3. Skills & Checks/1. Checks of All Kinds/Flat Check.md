@@ -1,0 +1,1 @@
+A check using 1d10, no modifiers, to beat a predetermined DC.
