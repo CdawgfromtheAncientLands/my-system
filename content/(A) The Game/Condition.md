@@ -20,6 +20,7 @@ aliases:
   - Enthralled
   - Vulnerable
   - Prone
+  - Fatigued
 ---
 *Conditions* are a universal set of statuses that **will** come into play consistently. 
 

@@ -12,7 +12,7 @@ aliases:
 # Grab (⋄/⟐)
 [[2. Action & Effect Traits|{Attack}]], [[2. Action & Effect Traits|{Wrestle}]], [[2. Action & Effect Traits|{R.A.P.}]]
 <font color="#d83931">Requirements:</font> You have an open hand.
-<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Trip]] and [[Combat Maneuvers|Shove]] for the purposes of [[3. Repeated Action Penalty|RAP]]. 
+<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Trip]] and [[Combat Maneuvers|Shove]] for the purposes of [[2. Action & Effect Traits|{R.A.P.}]].
 - **Crit Success.** As Success, but target is [[Condition|Restrained]] by you instead and counts as a Mild [[2.2 Stress|Stressor]] (1d4+2 Stress).
 - **Success.** Your target is [[Condition|Grabbed]] by you until the end of your next [[1.1 Encounters|Turn]]. 
 - **Crit Fail.** If you currently have your target [[Condition|Grabbed]] or [[Condition|Restrained]], they break free immediately. If not, they may [[Combat Maneuvers|Shove]] you as a [[1. Types of Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
@@ -27,7 +27,7 @@ aliases:
 # Trip (⋄/⟐)
 [[2. Action & Effect Traits|{Attack}]], [[2. Action & Effect Traits|{Wrestle}]], [[2. Action & Effect Traits|{R.A.P.}]]
 <font color="#d83931">Requirements:</font> You have an open hand.
-<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Grab]] and [[Combat Maneuvers|Shove]] for the purposes of [[3. Repeated Action Penalty|RAP]]. 
+<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Grab]] and [[Combat Maneuvers|Shove]] for the purposes of [[2. Action & Effect Traits|{R.A.P.}]]. 
 - **Crit Success.** As Success, but the target takes [[2.1 Damage|Blunt Damage]] as if they'd taken 5ft worth of fall damage and counts as a Mild [[2.2 Stress|Stressor]] (1d4+2 Stress).
 - **Success.** Your target is knocked [[Condition|Prone]].
 - **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1. Types of Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
@@ -37,7 +37,7 @@ aliases:
 # Shove (⋄/⟐)
 [[2. Action & Effect Traits|{Attack}]], [[2. Action & Effect Traits|{Wrestle}]], [[2. Action & Effect Traits|{R.A.P.}]]
 <font color="#d83931">Requirements:</font> You have an open hand.
-<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Trip]] and [[Combat Maneuvers|Grab]] for the purposes of [[3. Repeated Action Penalty|RAP]]. 
+<font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Trip]] and [[Combat Maneuvers|Grab]] for the purposes of [[2. Action & Effect Traits|{R.A.P.}]]. 
 - **Crit Success.** As Success, but counts as a Mild [[2.2 Stress|Stressor]] and pushes an extra 5ft. 
 - **Success.** You push the target up to your [[Melee Reach]] away from you. You may follow them with a [[Movement Actions|Traverse]] or [[Movement Actions|Step]] as a [[1. Types of Actions|Free ✧ Action]], but moving no further than the distance you pushed them.
 - **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1. Types of Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
