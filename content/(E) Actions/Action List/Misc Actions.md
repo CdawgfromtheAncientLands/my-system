@@ -12,7 +12,7 @@ aliases:
 <font color="#d83931">Requirements:</font> You must be able to meaningfully assist the other creature’s attempt.
 <font color="#d83931">Effect:</font> Describe how you assist another creature ("I encourage them" isn't enough). Propose a Skill relevant to the assistance. The GM approves the Skill and sets the Action’s traits and cost (usually a Minor action).
 Roll the chosen **Skill** versus an appropriate **DC** determined by the GM.
-- **Crit Success**. As Success, but +2 instead.
+- **Crit Success**. As Success, but [[1.3 Advantage & Disadvantage|Advantage]] instead.
 - **Success.** You meaningfully assist them: they gain +1 to their next [[1.1 Skill Checks|Skill Check]] that contributes toward whatever you helped them with.
 - **Crit Fail.** As success but you hinder the ally; they suffer **-1** instead.
 
