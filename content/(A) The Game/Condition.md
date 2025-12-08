@@ -148,4 +148,4 @@ Any **X-condition** always carries a number (its current level). If that number 
 - You cannot use any **[[2. Action & Effect Traits|{Move}]]** [[1. Types of Actions|Action]]s except **[[Movement Actions|Crawl]]** or **[[Movement Actions|Change Stance]]**.
 #### <u>Vulnerable X</u>
 *You’re easier to attack and exploit.*
-- Your suffer -1 to your [[Core Skills|Reflex]] [[1.4 Secondary Attribute|Skill DC]] per rank of [[Condition|Vulnerable]] (max -2).
+- Your suffer -1 to your [[Core Skills|Reflex]] [[1.4 Secondary Attribute|Skill DC]] per rank of [[Condition|Vulnerable]] (max -3).
