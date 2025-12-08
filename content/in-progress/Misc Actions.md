@@ -7,6 +7,7 @@ aliases:
   - Finger
   - Administer First Aid
   - Toss
+  - Sustain
 ---
 # Help (⋄)
 <font color="#d83931">Requirements:</font> You must be able to meaningfully assist the other creature’s attempt.
@@ -106,9 +107,9 @@ Thrown object performance depends on its mass relative to the thrower’s carryi
 ---
 
 # Limits & Notes
-
 - Irregularly shaped items or objects not intended for throwing may impose additional penalties (GM discretion).
-    
 - Throwing through tight spaces or complex flight paths imposes further penalties, especially when performing trick throws.
-    
 - Large or unwieldy items might require **two hands** to throw, and may require a **Major (⟐) version** of the action if precision is desired.
+# Sustain (⋄)
+[[2. Action & Effect Traits|{Concentrate}]]
+<font color="#d83931">Effect:</font> You sustain a continuous effect. This action's traits may change depending on the effect.
