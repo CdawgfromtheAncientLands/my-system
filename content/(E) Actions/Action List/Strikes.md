@@ -9,7 +9,4 @@ aliases:
 - **Success.** You successfully harass harm your target. Roll damage.
 - **Fail.** As Success, but halve the damage.
 
-<font color="#d83931">Effect (⋄):</font> Same as ⟐, but -1 to the [[1.1 Skill Checks|Skill Check]] and no damage on a fail. 
-
-<font color="#d83931">Notes.</font> You may only [[Strikes|Strike]] once per turn.
-
+<font color="#d83931">Effect (⋄):</font> Same as ⟐, but -1 to the [[1.1 Skill Checks|Skill Check]], no damage on a fail, and many [[Strikes|Strike]] [[1. Types of Actions|Rider ※]] actions will not be applicable to [[1. Types of Actions|Minor ⋄ Action]] [[Strikes]]. 

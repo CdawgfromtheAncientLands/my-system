@@ -23,12 +23,12 @@ aliases:
 <font color="#d83931">Effect (⟐):</font> As ⋄, but with these additional benefits: 
 - Until the start of your next turn, you gain an additional [[1. Types of Actions|Reaction ↻]], which may only be used for:
 	- Reactions in which you block, dodge, parry, or counterattack in a defensive fashion.
-	- A [[Movement Actions|Step]] in reaction to a creature moving into your [[Melee Reach]].
+	- A [[Movement Actions|Step]] in reaction to a creature moving into your [[1.1 Weapon Overview|Melee Reach]].
 
 **Limits:** You cannot raise the same item more than once in a turn, jackass. 
 # Take Cover (⋄)
 <font color="#d83931">Requirements:</font> You are [[Condition|Prone]] or near Cover.
-<font color="#d83931">Effect (⋄):</font> You gain the effects a nearby piece of [[Cover]]. If there is no cover nearby, you press into the ground, using whatever terrain you can. Ranged attacks against you that aren’t at point-blank range suffer -3 to hit.
+<font color="#d83931">Effect (⋄):</font> You gain the effects a nearby piece of [[3. Cover]]. If there is no cover nearby, you press into the ground, using whatever terrain you can. Ranged attacks against you that aren’t at point-blank range suffer -3 to hit.
 
 **Limits:** This effect ends when you use any [[Movement Actions|Move]] action besides [[Movement Actions|Crawl]].
 

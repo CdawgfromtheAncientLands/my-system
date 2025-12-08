@@ -141,7 +141,7 @@ Any **X-condition** always carries a number (its current level). If that number 
  
 #### <u>X Persistent Y Damage</u>
 *You’re stuck with a continual damaging effect.*
-- You suffer **X** [[2.1 Damage|Damage]] of type **Y** at the **end of your turn**.
+- You suffer **X** [[2.1 Damage & Resistance|Damage]] of type **Y** at the **end of your turn**.
 - After applying the damage, roll a **DC 9 [[Flat Check]]**; on a success, **remove** this condition.
 #### <u>Prone</u>
 *You are lying on the ground or otherwise prostrated.*

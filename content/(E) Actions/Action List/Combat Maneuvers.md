@@ -28,7 +28,7 @@ aliases:
 [[2. Action & Effect Traits|{Attack}]], [[2. Action & Effect Traits|{Wrestle}]], [[2. Action & Effect Traits|{R.A.P.}]]
 <font color="#d83931">Requirements:</font> You have an open hand.
 <font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Grab]] and [[Combat Maneuvers|Shove]] for the purposes of [[2. Action & Effect Traits|{R.A.P.}]]. 
-- **Crit Success.** As Success, but the target takes [[2.1 Damage|Blunt Damage]] as if they'd taken 5ft worth of fall damage and counts as a Mild [[2.2 Stress|Stressor]] (1d4+2 Stress).
+- **Crit Success.** As Success, but the target takes [[2.1 Damage & Resistance|Blunt Damage]] as if they'd taken 5ft worth of fall damage and counts as a Mild [[2.2 Stress|Stressor]] (1d4+2 Stress).
 - **Success.** Your target is knocked [[Condition|Prone]].
 - **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1. Types of Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
 
@@ -39,7 +39,7 @@ aliases:
 <font color="#d83931">Requirements:</font> You have an open hand.
 <font color="#d83931">Effect (⋄):</font> Make an [[Melee|Unarmed]] check versus a target's [[Core Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest). Counts as the same as [[Combat Maneuvers|Trip]] and [[Combat Maneuvers|Grab]] for the purposes of [[2. Action & Effect Traits|{R.A.P.}]]. 
 - **Crit Success.** As Success, but counts as a Mild [[2.2 Stress|Stressor]] and pushes an extra 5ft. 
-- **Success.** You push the target up to your [[Melee Reach]] away from you. You may follow them with a [[Movement Actions|Traverse]] or [[Movement Actions|Step]] as a [[1. Types of Actions|Free ✧ Action]], but moving no further than the distance you pushed them.
+- **Success.** You push the target up to your [[1.1 Weapon Overview|Melee Reach]] away from you. You may follow them with a [[Movement Actions|Traverse]] or [[Movement Actions|Step]] as a [[1. Types of Actions|Free ✧ Action]], but moving no further than the distance you pushed them.
 - **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1. Types of Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
 
 <font color="#d83931">Effect (⟐):</font> Same as ⋄, but you may choose the [[1.4 Secondary Attribute|Skill DC]] to contest and add the following effect to Success (and, by extension, Crit Success):
@@ -67,7 +67,7 @@ aliases:
 <font color="#d83931">Effect (⟐):</font> Same as ⋄, but you may choose to target all creatures of your choice within a 15ft. square (60ft range). Roll once; compare individually.
 # Feint (⋄)
 [[2. Action & Effect Traits|{Precise}]], [[2. Action & Effect Traits|{Mental}]], [[2. Action & Effect Traits|{Concentrate}]], [[2. Action & Effect Traits|{Melee}]], [[2. Action & Effect Traits|{R.A.P.}]]
-<font color="#d83931">Requirements:</font> The target must be within your [[Melee Reach]].
+<font color="#d83931">Requirements:</font> The target must be within your [[1.1 Weapon Overview|Melee Reach]].
 <font color="#d83931">Effect (⋄):</font> You disguise a strike, exploit a blind angle, or manipulate the opponent’s expectations.  
 Roll **[[Finesse|Quick Fingers]]** or **[[Guile|Deception]]** versus the target’s **[[Observation|Perception]]** [[1.4 Secondary Attribute|Skill DC]].
 - **Crit Success.** As Success, but [[Condition|Vulnerable]] 2.
