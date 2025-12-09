@@ -27,9 +27,6 @@ aliases:
   - Knife
   - Blade Weapon
 ---
-# **⚔️ SWORDS**
-
----
 ## **Shortsword** ($+)
 **1-Handed • Simple • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Versatile}]] (1d6+1, +[[1.2 Weapon Traits|{Parry}]] 1)
