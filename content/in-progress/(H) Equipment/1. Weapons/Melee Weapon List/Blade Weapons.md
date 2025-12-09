@@ -1,3 +1,32 @@
+---
+aliases:
+  - Shortsword
+  - Longsword
+  - Bastard Sword
+  - Greatsword
+  - Katana
+  - Nodachi
+  - Zhanmadao
+  - Horse Chopper
+  - Scimitar
+  - Falchion
+  - Cutlass
+  - Rapier
+  - Saber
+  - Dueling Sword
+  - Jian
+  - Straightsword
+  - Dagger
+  - Shiv
+  - Parrying Knife
+  - Kris Knife
+  - Sickle
+  - Fighting Knife
+  - Dirk
+  - Sword
+  - Knife
+  - Blade Weapon
+---
 # **⚔️ SWORDS**
 
 ---

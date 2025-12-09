@@ -1,3 +1,14 @@
+---
+aliases:
+  - Flail
+  - War Flail
+  - Whip
+  - Combat Grapnel
+  - Double-Headed Flail
+  - Urumi
+  - Meteor Hammer
+  - Flail Weapon
+---
 # **Flail** ($+)
 **1-Handed • Martial • Medium • Flail**  
 **Traits:** [[1.2 Weapon Traits|{Disarm}]], [[1.2 Weapon Traits|{Trip}]], [[1.2 Weapon Traits|{Wide Swing}]]
@@ -64,7 +75,7 @@ _A flail with two separate striking heads, each swinging on its own chain. Diffi
 _A segmented blade linked by chain, able to extend into long sweeping arcs or snap tight for closer cuts. Extremely difficult to master and unsuited for defense, but terrifying in the hands of an expert._
 
 ---
-# **Meteor Hammer** ($+++)
+# **Meteor Hammer** ($+)
 **1+ Hands • Advanced • Medium • Flail**  
 **Traits:** [[1.2 Weapon Traits|{Reach}]] +10, [[1.2 Weapon Traits|{Wide Swing}]], [[1.2 Weapon Traits|{Backswing}]], [[1.2 Weapon Traits|{Forceful}]]
 
