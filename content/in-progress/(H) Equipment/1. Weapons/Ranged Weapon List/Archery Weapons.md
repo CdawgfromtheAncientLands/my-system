@@ -63,7 +63,7 @@ _A brutally strong bow requiring trained shoulders to draw; its arrows punch thr
 ---
 # **Hand Crossbow** ($++)
 **1-Handed • Light • Martial • Archery (Crossbow)**  
-**Traits:** [[1.4 Ranged Traits|{Misfire}]] 4, [[1.4 Ranged Traits|{Versatile}]]
+**Traits:** [[1.4 Ranged Traits|{Misfire}]] 5, [[1.4 Ranged Traits|{Versatile}]]
 
 **Ammo:** 1 Bolt  
 **Reload:** 2  
@@ -78,7 +78,7 @@ _A compact, concealable weapon favored by duelists, spies, and rogues. Lacks pow
 ---
 # **Crossbow** ($+)
 **2-Handed • Medium • Simple • Archery (Crossbow)**  
-**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d8, [[1.4 Ranged Traits|{Misfire}]] 2, [[1.4 Ranged Traits|{Versatile}]]
+**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d8, [[1.4 Ranged Traits|{Misfire}]] 4, [[1.4 Ranged Traits|{Versatile}]]
 
 **Ammo:** 1 Bolt  
 **Reload:** 2  
@@ -93,7 +93,7 @@ _A standard crossbow: stable, serviceable, and surprisingly lethal. Its mechanic
 ---
 # **Heavy Crossbow** ($++)
 **2-Handed • Heavy • Simple • Archery (Crossbow)**  
-**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d10, [[1.2 Weapon Traits|{Shove}]], [[1.4 Ranged Traits|{Misfire}]] 2
+**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d10, [[1.2 Weapon Traits|{Shove}]], [[1.4 Ranged Traits|{Misfire}]] 4
 
 **Ammo:** 1 Bolt  
 **Reload:** 3  
@@ -108,7 +108,7 @@ _A large, reinforced crossbow with a punishing draw weight. Slow to operate, dev
 ---
 # **Arbalest** ($+++)
 **2-Handed • Heavy • Martial • Archery (Crossbow)**  
-**Traits:** [[1.4 Ranged Traits|{Anti-Armor}]] 2, [[1.2 Weapon Traits|{Deadly}]] 1d10, [[1.4 Ranged Traits|{Misfire}]] 2, [[1.4 Ranged Traits|{Volley}]] 20 ft, [[1.2 Weapon Traits|{Shove}]]
+**Traits:** [[1.4 Ranged Traits|{Anti-Armor}]] 2, [[1.2 Weapon Traits|{Deadly}]] 1d10, [[1.4 Ranged Traits|{Misfire}]] 4, [[1.4 Ranged Traits|{Volley}]] 20 ft, [[1.2 Weapon Traits|{Shove}]]
 
 **Ammo:** 1 Bolt  
 **Reload:** 4  
@@ -123,7 +123,7 @@ _A siege-line crossbow requiring winding gear to load. Its bolts punch through s
 ---
 # **Chu-No-Ku (Repeating Crossbow)** ($+++)
 **2-Handed • Medium • Advanced • Archery (Crossbow)**  
-**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d6, [[1.4 Ranged Traits|{Misfire}]] 4, [[1.4 Ranged Traits|{Manual}]]
+**Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d6, [[1.4 Ranged Traits|{Misfire}]] 6, [[1.4 Ranged Traits|{Manual}]]
 
 **Ammo:** 6 Bolts  
 **Reload:** 7 (full magazine)  
