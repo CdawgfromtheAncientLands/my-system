@@ -18,13 +18,13 @@ _People may call you independent, volatile, uncompromising, or inspiring._
 ---
 # **Risk is the Reward**
 
-You chase the pulse—novelty, adrenaline, proof you’re alive. The world feels wrong when it’s quiet or safe for too long. Risk sharpens your senses; danger feels like clarity. You push limits because excitement is worth the fallout, even when the fallout is brutal. People try to slow you down; you laugh, taunt, or slip their grip entirely. The fun _is_ the point. You’ll deal with the consequences later—maybe.
+You chase the pulse - novelty, adrenaline, proof you’re alive. The world feels wrong when it’s quiet or safe for too long. Risk sharpens your senses, danger feels like clarity. You push limits because excitement is worth the fallout, even when the fallout is brutal. People try to slow you down - but they just don't get it. The experience _is_ the point, and consequences can always be shirked.
 
 _People may call you chaotic, charismatic, foolish, or exhilarating._
 
-• _“If it doesn’t scare you a little, what’s the point?”_  
-• _“Relax—we’ll recover in the morning.”_  
-• _“One more jump.”_
+• *“Being safe isn't the same thing as being alive.”*
+• _“It’ll probably work! And if it doesn’t, that’ll be interesting too..”_  
+• *“You can watch... or you can come with me.”*
 
 ---
 

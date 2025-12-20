@@ -1,6 +1,6 @@
 ### **Master of the Now**
 **Requirements:** [[Bold Selves|Bold]]
-**Use:** 1/Session, refreshed when you earn a [[4. Triumphs & The Daring|Triumph]].
+**Use:** 1/Session
 _You have an instinct for the exact moment when a situation is about flip._
 
 When a situation is about to tip toward escalation or disaster, you may declare and perform a decisive action (no more than 1 Major + 1 Minor action in terms of mechanical effect) with priority of framing before the next exchange resolves. Roll 1d6:
@@ -13,7 +13,7 @@ This Talent does not cancel or supersede existing rules for resolution, reaction
 ---
 ### **Cut Open the Moment**
 **Requirements:** [[Bold Selves|Bold]]
-**Use:** 1/Session, refreshed when you earn a [[4. Triumphs & The Daring|Triumph]].  
+**Use:** 1/Session
 _In dead silence and high tension, a precision blow lets the dogs of truth and action loose._
 
 When someone stonewalls, stalls, or weasels - refuses to answer plainly or choose a side, you may force the issue by calling it out directly. Roll 1d6:
@@ -24,7 +24,7 @@ When someone stonewalls, stalls, or weasels - refuses to answer plainly or choos
 ---
 ### **The Power of Unrelenting**
 **Requirements:** [[Bold Selves|Bold]]
-**Use:** 1/Session, refreshed every 2 [[4. Triumphs & The Daring|Triumph]]s you earn.
+**Use:** 1/Session. May only be refreshed every other [[4. Triumphs & The Daring|Triumph]] earned during a session.
 _When you commit without flinching, the world makes room._
 
 When something must be done, you get it done. *In character*, publicly declare a course of action that is attainable within the scene and fiction - like "We're getting out of here alive!!" or "I'll end you right now!". Roll 1d6.
@@ -37,7 +37,7 @@ If you abandon, pause, or meaningfully compromise the declared course, the Talen
 ---
 ### **Still Waters**
 **Requirements:** [[Detached Selves|Detached]]
-**Use:** 1/session, refreshed when you earn a [[4. Triumphs & The Daring|Triumph]]. 
+**Use:** 1/session
 *You are stoic in the moment - but the pain comes later.*
 
 When you would suffer an instance of [[2.2 Stress|Stress]], you may ignore it. At the end of this [[1.1 Encounters|Encounter]] or scene (or at the beginning of next Rest, GM's call depending on context), immediately roll 1d6.
@@ -50,27 +50,21 @@ When you would suffer an instance of [[2.2 Stress|Stress]], you may ignore it. A
 ---
 ### **Like a Dead Fish**
 **Requirements:** [[Detached Selves|Detached]]  
-**Use:** 2 /session, refreshed when you earn a [[4. Triumphs & The Daring|Triumph]].  
-_Those t._
+**Use:** 1/session
+_Social games and manipulation deflect off your deadpan face._
 
-When a creature attempts to intimidate, manipulate, guilt, provoke, or emotionally dominate you, you may deny the attempt entirely.  
-That emotional leverage fails outright: you show no reaction, provide no reinforcement, and cannot be emotionally influenced by that creature for the remainder of the scene.
-
-The aggressor is immediately forced onto the defensive. Their posture shifts from control to containment—hesitation, overcorrection, justification, or retreat.  
-Until they meaningfully regain composure, their actions against you are reactive rather than assertive, and any further emotional escalation risks exposing insecurity, desperation, or loss of control to the scene.
-
-_They reached for your nerves and came up empty._
+When a creature attempts to intimidate, manipulate, guilt, provoke, or emotionally dominate you, deny the attempt by coldly reacting (or perhaps not reacting at all). Roll 1d6:
+- **1-2:** You deny the leverage, but at a cost. The tension redirects inward - suffer 1d4+1 [[2.2 Stress|Stress]] or expose a personal vulnerability, tell, or crack in your composure (GM’s call).
+- **3-5:** The emotional pressure fails outright. For the next moment, the aggressor's social stance moves to reactive - they can be pressed, persuaded, or influenced with a +1 bonus to the next roll to do so, and find themselves struggling to make a move until they regain their composure (usually after 4-10 seconds, if you want a number).
+- **6:** The aggressor's attempt pitifully (or catastrophically) decomposes. As 3-5, but the aggressor’s emotional posture or motivation is exposed to the scene - insecurity, desperation, or loss of control becomes obvious to all others nearby.
 
 ---
 ### **Contagious Calm**
 **Requirements:** [[Detached Selves|Detached]]  
-**Use:** 1/session, refreshed when you earn a [[4. Triumphs & The Daring|Triumph]].  
+**Use:** 1/session
 _You kill drama by refusing to perform._
 
-When a scene is particularly tense, a well-timed mundane activity shows you're not afraid - and lets people know to keep their tempers cool.
-
-
-For the remainder of the moment, no emotional escalation may occur passively or by implication.  
-Anyone who wishes to re-ignite tension must do so openly and decisively, accepting full narrative and social consequences for being the one who strikes the match.
-
-_Drama starves when no one feeds it._
+When a scene is particularly tense, a well-timed mundane activity shows you're not afraid *nor particularly excited* - and lets people know to keep their tempers cool. Roll 1d6:
+- **1-4:** Choose a number of creatures in the scene equal to the d6 result. That many creatures have their temper or anxieties momentarily reduced until they're provoked again. 
+- **5-6:** Same as 1-4, but you may also reduce a total of 4d4 [[2.2 Stress|Stress]] suffered across the selected creatures (if this ability is used in reaction to an event that causes [[2.2 Stress|Stress]].
+In some circumstances, the GM may choose to reduce an allotment of [[2.2 Stress|Stress]] regardless of the ability's roll or restore [[1.4 Secondary Attribute|Focus]] depending on how creatively or aptly this ability is utilized.
