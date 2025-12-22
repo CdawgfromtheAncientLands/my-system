@@ -68,3 +68,36 @@ When a scene is particularly tense, a well-timed mundane activity shows you're n
 - **1-4:** Choose a number of creatures in the scene equal to the d6 result. That many creatures have their temper or anxieties momentarily reduced until they're provoked again. 
 - **5-6:** Same as 1-4, but you may also reduce a total of 4d4 [[2.2 Stress|Stress]] suffered across the selected creatures (if this ability is used in reaction to an event that causes [[2.2 Stress|Stress]].
 In some circumstances, the GM may choose to reduce an allotment of [[2.2 Stress|Stress]] regardless of the ability's roll or restore [[1.4 Secondary Attribute|Focus]] depending on how creatively or aptly this ability is utilized.
+
+---
+## **This Will Have to Do**
+**Requirements:** [[Pragmatic Selves|Pragmatic]]  
+**Use:** 1/session  
+_You stop searching for better answers and commit to what’s in front of you._
+
+When you deliberately choose an inferior, incomplete, or improvised option because it is the only viable one available, you may declare it _good enough_.  
+For the remainder of the scene, that option functions reliably and predictably, avoiding escalation, catastrophic failure, or surprise complications.
+
+The solution remains flawed: it will not improve outcomes, achieve perfection, or solve the situation permanently—but it **will hold** long enough to matter.
+
+---
+## **Cut Losses**
+**Requirements:** [[Pragmatic Selves|Pragmatic]]  
+**Use:** 1/session  
+_Knowing when to stop is how you survive._
+
+When you abandon a failing effort, doomed plan, or unrecoverable position **before** it fully collapses, you may salvage value from the decision.  
+Choose one: preserve resources, protect positioning, retain information, or prevent additional consequences that would have followed from continuing.
+
+This does not undo what was already lost—but it cleanly ends the bleed and stabilizes what remains.
+
+---
+## **Make It Worth It**
+**Requirements:** [[Pragmatic Selves|Pragmatic]]  
+**Use:** 1/session  
+_If something is going to fail, you make sure it pays._
+
+When a plan, action, or approach fails or must be sacrificed, you may immediately extract value from the loss.  
+Convert the failure into one concrete benefit: time, information, positioning, leverage, or reduced fallout—appropriate to the fiction.
+
+This benefit only exists **because** the failure occurred; you cannot gain it without accepting the loss in full.

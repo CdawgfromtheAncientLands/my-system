@@ -21,6 +21,7 @@ aliases:
   - Vulnerable
   - Prone
   - Fatigued
+  - Sick
 ---
 *Conditions* are a universal set of statuses that **will** come into play consistently. 
 
