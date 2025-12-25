@@ -1,5 +1,4 @@
 
----
 # **Juggernaut Solution**
 **Use:** 1/Session, refreshed every 2 [[4. Triumphs & The Daring|Triumph]]s earned.
 _Problems are best solved with force._
