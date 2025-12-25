@@ -1,0 +1,1 @@
+Quicksand and thick mud, fire, electricity, lightning bolts, rocking and rolling, acid rain, falling rocks, different acids, effects of certain toxic gases 
