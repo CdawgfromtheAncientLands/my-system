@@ -65,6 +65,6 @@ The DC to climb up a sharp hill is ~15, a rocky outcropping is ~18, and it incre
 [[2. Action & Effect Traits|{Move}]], [[2. Action & Effect Traits|{R.A.P.}]]
 <font color="#d83931">Effect.</font> You [[Movement Actions|Traverse]] as a [[1. Types of Actions|Minor ⋄ Action]]. During the traversal, you may make an [[Finesse|Acrobatics]] check vs. the [[Core Skills|Reflex]], [[Athletics|Labor]], or [[Melee|Hand-to-Hand]] [[1.4 Secondary Attribute|Skill DC]] (pick the current highest) of a creature blocking your path (their choice) OR vs. a set DC if facing an obstacle that is not a hostile creature.
 - **Crit Success.** Same as Success, but without the movement penalty.
-- **Success.** Move through the obstacle's space as if it were [[Difficult Terrain]].
+- **Success.** Move through the obstacle's space as if it were [[1. Terrain|Difficult Terrain]].
 - **Fail.** Your movement ends in front of the obstacle.
 - **Crit Fail.** You fall flat on your face in front of the creature.
