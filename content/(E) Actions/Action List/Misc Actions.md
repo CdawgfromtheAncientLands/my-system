@@ -47,7 +47,7 @@ If interacting with a held or guarded object, you will make skill checks at GM d
 - **Crit Fail.** You fumble and strike the ledge, taking **half** the fall damage you would have taken had you hit the ground
 
 **Limits:** Pulling yourself onto stable ground is a [[Movement Actions|Climb]] action unless the GM rules otherwise.
-# Finger (✧)
+# Finger (⋄)
 [[2. Action & Effect Traits|{Auditory}]], [[2. Action & Effect Traits|{Visual}]]
 <font color="#d83931">Effect:</font> You subtly call attention to a creature that is not [[Condition|Unnoticed]] to you. Any creature that can see or hear you increases its [[Detection Rating]] of the pointed-out target by **1**, but cannot exceed your own [[Detection Rating]] of that creature.
 # Administer First Aid (⟐)
