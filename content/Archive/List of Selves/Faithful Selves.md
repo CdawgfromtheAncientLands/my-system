@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Faithful
-  - No Such Thing as Coincidence
-  - Destiny Favors Those Who Seize It
-  - Something Bigger is Watching
 ---
 # **No Such Thing as Coincidence**
 

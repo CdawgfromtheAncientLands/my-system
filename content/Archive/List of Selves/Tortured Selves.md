@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Tortured
-  - Pain is Mine to Bear
-  - Some Things Can't Be Forgiven
-  - Someone Has to Pay
 ---
 # **Pain is Mine to Bear**
 

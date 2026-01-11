@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Never Give Up
-  - Kill the Past
-  - A Life Without Purpose is Wasted
-  - Idealist
 ---
 # **Never Give Up**
 

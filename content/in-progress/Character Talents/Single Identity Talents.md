@@ -24,7 +24,7 @@ When someone stonewalls, stalls, or weasels - refuses to answer plainly or choos
 ---
 ### **The Power of Unrelenting**
 **Requirements:** [[Bold Selves|Bold]]
-**Use:** 1/Session. May only be refreshed every other [[4. Triumphs & The Daring|Triumph]] earned during a session.
+**Use:** 1/Session. May only be refreshed every other [[5. Triumphs & The Daring|Triumph]] earned during a session.
 _When you commit without flinching, the world makes room._
 
 When something must be done, you get it done. *In character*, publicly declare a course of action that is attainable within the scene and fiction - like "We're getting out of here alive!!" or "I'll end you right now!". Roll 1d6.
@@ -51,7 +51,7 @@ When you would suffer an instance of [[2.2 Stress|Stress]], you may ignore it. A
 ### **Like a Dead Fish**
 **Requirements:** [[Detached Selves|Detached]]  
 **Use:** 1/session
-_Social games and manipulation deflect off your deadpan face._
+_Social games and manipulation deflect off your deadpan attitude._
 
 When a creature attempts to intimidate, manipulate, guilt, provoke, or emotionally dominate you, deny the attempt by coldly reacting (or perhaps not reacting at all). Roll 1d6:
 - **1-2:** You deny the leverage, but at a cost. The tension redirects inward - suffer 1d4+1 [[2.2 Stress|Stress]] or expose a personal vulnerability, tell, or crack in your composure (GM’s call).

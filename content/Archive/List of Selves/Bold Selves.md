@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Hard & Fast
-  - Bold
-  - Opportunity in Fear
-  - Ice Breaker, Moment Taker
 ---
 # **Hard & Fast**
 

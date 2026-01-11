@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Trust Must Be Earned
-  - I Need The Facts
-  - People Don't Change
-  - Skeptical
 ---
 # **Trust Must Be Earned**
 

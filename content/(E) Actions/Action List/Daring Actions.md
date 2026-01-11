@@ -9,12 +9,12 @@ aliases:
 ---
 # Upgrade Action (✧)
 [[2. Action & Effect Traits|{Daring}]]
-<font color="#d83931">Cost:</font> **1 [[4. Triumphs & The Daring|Daring]]**  
+<font color="#d83931">Cost:</font> **1 [[5. Triumphs & The Daring|Daring]]**  
 <font color="#d83931">Trigger:</font> You are about to take a [[1. Types of Actions|Minor ⋄ Action]] that has a [[1. Types of Actions|Major ⟐ Action]] version.
 <font color="#d83931">Effect:</font> The action is immediately treated as its Major version, gaining all ⟐ benefits and effects.
 # Daring Footwork (✧)
 [[2. Action & Effect Traits|{Daring}]]
-<font color="#d83931">Cost:</font> **1 [[4. Triumphs & The Daring|Daring]]**  
+<font color="#d83931">Cost:</font> **1 [[5. Triumphs & The Daring|Daring]]**  
 <font color="#d83931">Frequency:</font> **Once per turn**
 <font color="#d83931">Effect:</font> You [[Movement Actions|Step]] up to 5ft. as a [[1. Types of Actions|Free ✧ Action]]. This move does not count against your normal movement limits.  
 # Daring Deflection (↻)
@@ -26,7 +26,7 @@ aliases:
 [[2. Action & Effect Traits|{Daring}]], [[2. Action & Effect Traits|{Concentrate}]], [[2. Action & Effect Traits|{Mental}]]
 <font color="#d83931">Cost:</font> **X Daring**
 <font color="#d83931">Trigger:</font> You would suffer [[2.2 Stress|Stress]] from any source.
-<font color="#d83931">Effect:</font> Reduce the Stress taken by 3 for each [[4. Triumphs & The Daring|Daring]] spent, no more than once per Stress event.  
+<font color="#d83931">Effect:</font> Reduce the Stress taken by 3 for each [[5. Triumphs & The Daring|Daring]] spent, no more than once per Stress event.  
 # Daring Response (↻)
 [[2. Action & Effect Traits|{Daring}]]
 <font color="#d83931">Cost:</font> **4 Daring**  

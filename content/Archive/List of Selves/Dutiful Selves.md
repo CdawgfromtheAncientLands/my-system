@@ -1,10 +1,5 @@
 ---
 aliases:
-  - Dutiful
-  - Those Who Can, Must
-  - Words Are Sacred
-  - Anchored in Order
-  - Ride or Die
 ---
 # **Those Who Can, Must**
 

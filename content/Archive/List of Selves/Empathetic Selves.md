@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Hope is My Blade
-  - Generous Redeemer
-  - No Man Left Behind
-  - Empathetic
 ---
 # **Hope is My Blade**
 

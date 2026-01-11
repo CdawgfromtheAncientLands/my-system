@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Detached
-  - Student of Pain
-  - Mask of Calm
-  - I'll Be What Works
 ---
 # **Student of Pain**
 

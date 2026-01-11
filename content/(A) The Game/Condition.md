@@ -13,7 +13,6 @@ aliases:
   - Feeble
   - Strained
   - Unconscious
-  - Peril
   - Dying
   - Stupefied
   - Panicked

@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Pragmatic
-  - Life is an Ugly Choice
-  - (The Right) Knowledge is Power
-  - Mercy is Too Risky
 ---
 # **Life is an Ugly Choice**
  

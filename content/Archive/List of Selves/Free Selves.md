@@ -1,9 +1,5 @@
 ---
 aliases:
-  - Free
-  - I'm Me, You're You
-  - Risk is the Reward
-  - Integrity Over Authority
 ---
 # **I'm Me, You're You**
 
