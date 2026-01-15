@@ -9,9 +9,9 @@ aliases:
   - Tekko-Kagi
   - Iron Rings
   - Fist
-  - Unarmed Weapon
+  - Natural Blow
 ---
-## **Unarmed Strike (Fist / Kick)**
+## **Natural Blow**
 **0-Hands • Simple • - • Unarmed (Fist)**  
 **Traits:** [[1.2 Weapon Traits|{Free Hand}]], [[1.2 Weapon Traits|{Close-Quarters}]]
 
@@ -68,9 +68,9 @@ _Forearm-worn paired claws designed for ripping cuts, joint attacks, and exploit
 ---
 ## **Katar** ($++)
 **1-Handed • Advanced • Light • Unarmed (Fist/Knife)**  
-**Traits:** [[1.2 Weapon Traits|{Free Hand}]], [[1.2 Weapon Traits|{Close-Quarters}]], [[1.2 Weapon Traits|{Deadly}]] 1d6, [[1.2 Weapon Traits|{Anti-Armor}]] 4
+**Traits:** [[1.2 Weapon Traits|{Free Hand}]], [[1.2 Weapon Traits|{Close-Quarters}]], [[1.2 Weapon Traits|{Deadly}]] 1d6, [[1.2 Weapon Traits|{Anti-Armor}]] 3
 
-**Damage:** 1d4 [[2.1 Damage & Resistance|Blade Damage]]  
+**Damage:** 1d6 [[2.1 Damage & Resistance|Blade Damage]]  
 **Durability:** 1d12  
 **Weight:** 0.5 kg
 
@@ -88,7 +88,7 @@ _A perpendicular-gripped punch dagger that channels the weight of a blow into a 
 _A set of hooked backhand claws used to trap blades, rake flesh, and tangle limbs. Deadly in grapples and weapon duels._
 
 ---
-# **🥋 Iron Rings** ($+)
+# **Iron Rings** ($+)
 **1-Handed • Advanced • Light • Unarmed (Fist/Club)**  
 **Traits:** [[1.2 Weapon Traits|{Free Hand}]], [[1.2 Weapon Traits|{Close-Quarters}]], [[1.2 Weapon Traits|{Backswing}]], [[1.2 Weapon Traits|{Parry}]] 2
 **Damage:** 1d4 [[2.1 Damage & Resistance|Blunt Damage]]  

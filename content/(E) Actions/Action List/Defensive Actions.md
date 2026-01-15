@@ -4,6 +4,7 @@ aliases:
   - Defend
   - Take Cover
   - Hide
+  - Shield Block
 ---
 # Escape (⋄/⟐)
 [[2. Action & Effect Traits|{R.A.P.}]]
@@ -40,3 +41,8 @@ aliases:
 - **Crit Fail.** You become **[[Detection Rating|Observed]]** by that creature
 
 **Limits:** Re-entering a creature’s line of sight makes you **[[Detection Rating|Observed]]** by them again. Any action that would naturally reveal your presence either increases your [[Detection Rating]] or forces another [[Finesse|Sneak]] roll vs. [[Observation|Perception]]. Repeated attempts to hide in the exact same location may impose penalties at the GM’s discretion.
+
+# Shield Block (↻)
+<font color="#d83931">Trigger:</font> You would take damage from a physical hazard that your shield could block.
+<font color="#d83931">Effect:</font> Roll the [[4.1 Shields|Shield]]'s durability once - twice if blocking the effects of a [[1.1 Skill Checks|Crit Fail]] on your part or a [[1.1 Skill Checks|Crit Success]] on a [[Strikes|Strike]] against you.
+Reduce the incoming damage by the shield's [[2.1 Armor Overview|Armor Rating]].

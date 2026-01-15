@@ -27,7 +27,7 @@ aliases:
   - Knife
   - Blade Weapon
 ---
-## **Shortsword** ($+)
+# **Shortsword** ($+)
 **1-Handed • Simple • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Versatile}]] (1d6+1, +[[1.2 Weapon Traits|{Parry}]] 1)
 
@@ -38,7 +38,7 @@ aliases:
 _A compact blade built for quick cuts and close fighting. Easy to carry, quick to draw, and reliable in tight quarters._
 
 ---
-## **Longsword** ($++)
+# **Longsword** ($++)
 **1-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Versatile}]] (2d4+1), [[1.2 Weapon Traits|{Parry}]] 1
 
@@ -49,7 +49,7 @@ _A compact blade built for quick cuts and close fighting. Easy to carry, quick t
 _A sturdy, versatile blade with reach and leverage. Favored for its balance between cutting power and responsive defense._
 
 ---
-## **Bastard Sword** ($++)
+# **Bastard Sword** ($++)
 **2-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 1, [[1.2 Weapon Traits|{Versatile}]] (1d8, -[[1.2 Weapon Traits|{Parry}]], +[[1.2 Weapon Traits|{Wide Swing}]])
 
@@ -60,7 +60,7 @@ _A sturdy, versatile blade with reach and leverage. Favored for its balance betw
 _A long-gripped sword offering extra leverage or two-handed control. Flexible in form and function for varied fighting styles._
 
 ---
-## **Greatsword** ($+++)
+# **Greatsword** ($+++)
 **2-Handed • Advanced • Heavy • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 1, [[1.2 Weapon Traits|{Sweep}]], [[1.2 Weapon Traits|{Wide Swing}]], [[1.2 Weapon Traits|{Reach}]] +5
 
@@ -71,7 +71,7 @@ _A long-gripped sword offering extra leverage or two-handed control. Flexible in
 _A broad, weighty blade built for sweeping blows. Demands strength, but delivers decisive reach and impact._
 
 ---
-## **Zhanmadao / Horse Chopper** ($++)
+# **Zhanmadao / Horse Chopper** ($++)
 **2-Handed • Advanced • Heavy • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Counter-Charge}]] 2, [[1.2 Weapon Traits|{Sweep}]]
 
@@ -82,7 +82,7 @@ _A broad, weighty blade built for sweeping blows. Demands strength, but delivers
 _A long, forward-weighted blade made to cut through mass and momentum. Excels at powerful, committed strikes._
 
 ---
-## **Scimitar** ($+)
+# **Scimitar** ($+)
 **1-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Forceful}]], [[1.2 Weapon Traits|{Sweep}]]
 
@@ -93,7 +93,7 @@ _A long, forward-weighted blade made to cut through mass and momentum. Excels at
 _A curved blade optimized for slicing strokes and flowing movement. Light in hand and quick to recover._
 
 ---
-## **Falchion** ($++)
+# **Falchion** ($++)
 **2-Handed • Martial • Heavy • Blade/Maul (Sword/Axe)**  
 **Traits:** [[1.2 Weapon Traits|{Forceful}]], [[1.2 Weapon Traits|{Sweep}]], [[1.2 Weapon Traits|{Versatile}]] (1d8, -[[1.2 Weapon Traits|{Sweep}]]), [[1.2 Weapon Traits|{Wide Swing}]]
 
@@ -104,7 +104,7 @@ _A curved blade optimized for slicing strokes and flowing movement. Light in han
 _A broad, heavy-edged sword designed for chopping power. Trades finesse for strong, cleaving cuts._
 
 ---
-## **Cutlass** ($+)
+# **Cutlass** ($+)
 **1-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 1, [[1.2 Weapon Traits|{Sweep}]]
 
@@ -115,7 +115,7 @@ _A broad, heavy-edged sword designed for chopping power. Trades finesse for stro
 _A short, broad slashing sword suited for close-quarters fighting and shipboard skirmishes._
 
 ---
-## **Rapier / Saber** ($++)
+# **Rapier / Saber** ($++)
 **1-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 2, [[1.2 Weapon Traits|{Disarm}]], [[1.2 Weapon Traits|{Savaging}]] 2, [[1.2 Weapon Traits|{Bind}]] 1
 
@@ -126,7 +126,7 @@ _A short, broad slashing sword suited for close-quarters fighting and shipboard 
 _A narrow, agile blade built for precision. Excels in quick thrusts, deflections, and controlled point work._
 
 ---
-## **Dueling Sword** ($+++)
+# **Dueling Sword** ($+++)
 **1-Handed • Advanced • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 2, [[1.2 Weapon Traits|{Disarm}]], [[1.2 Weapon Traits|{Savaging}]] 1d6, [[1.2 Weapon Traits|{Bind}]] 1
 
@@ -137,7 +137,7 @@ _A narrow, agile blade built for precision. Excels in quick thrusts, deflections
 _A reinforced saber with a firm spine and tapered tip. Suited to sharp, clean attacks in one-on-one engagements._
 
 ---
-## **Jian / Straightsword** ($+)
+# **Jian / Straightsword** ($+)
 **1-Handed • Martial • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 2, [[1.2 Weapon Traits|{Predatory}]] 1
 
@@ -148,7 +148,7 @@ _A reinforced saber with a firm spine and tapered tip. Suited to sharp, clean at
 _A balanced, double-edged straight sword suited to disciplined forms emphasizing precision over power._
 
 ---
-## **Katana** ($++)
+# **Katana** ($++)
 **2-Handed • Advanced • Medium • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Executioner}]] 5, [[1.2 Weapon Traits|{Savaging}]] 2, [[1.2 Weapon Traits|{Versatile}]] (1d8, -[[1.2 Weapon Traits|{Executioner}]])
 
@@ -159,7 +159,7 @@ _A balanced, double-edged straight sword suited to disciplined forms emphasizing
 _A curved, single-edged cutting sword optimized for decisive, controlled strikes. Excels in single-target engagements._
 
 ---
-## **Nodachi** ($+++)
+# **Nodachi** ($+++)
 **2-Handed • Advanced • Heavy • Blade (Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Reach}]] +5, [[1.2 Weapon Traits|{Savaging}]] 2, [[1.2 Weapon Traits|{Executioner}]] 7, [[1.2 Weapon Traits|{Lance}]] 2
 
@@ -170,11 +170,7 @@ _A curved, single-edged cutting sword optimized for decisive, controlled strikes
 _A long battlefield sword built for reach and momentum. Less sweeping than a greatsword but deadlier on clean hits._
 
 ---
-
-# **🔪 KNIVES**
-
----
-## **Dagger / Shiv** ($)
+# **Dagger / Shiv** ($)
 **1-Handed • Simple • Light • Blade (Knife)**  
 **Traits:** [[1.2 Weapon Traits|{Concealed}]], [[1.2 Weapon Traits|{Predatory}]] 1, [[1.2 Weapon Traits|{Thrown}]] 10ft, [[1.2 Weapon Traits|{Close-Quarters}]]
 
@@ -185,7 +181,7 @@ _A long battlefield sword built for reach and momentum. Less sweeping than a gre
 _A short, light blade intended for fast strikes and easy concealment. Effective at very close range._
 
 ---
-## **Throwing Knife** ($)
+# **Throwing Knife** ($)
 **1-Handed • Martial • Light • Blade (Knife)**  
 **Traits:** [[1.2 Weapon Traits|{Concealed}]], [[1.2 Weapon Traits|{Predatory}]] 1, [[1.2 Weapon Traits|{Thrown}]] 20ft
 
@@ -196,7 +192,7 @@ _A short, light blade intended for fast strikes and easy concealment. Effective 
 _A balanced blade tuned for controlled flight. Lightweight and shaped for predictable rotation._
 
 ---
-## **Dirk** ($+)
+# **Dirk** ($+)
 **1-Handed • Martial • Light • Blade (Knife)**  
 **Traits:** [[1.2 Weapon Traits|{Deadly}]] 1d6, [[1.2 Weapon Traits|{Anti-Armor}]] 3
 
@@ -207,7 +203,7 @@ _A balanced blade tuned for controlled flight. Lightweight and shaped for predic
 _A narrow, rigid thrusting knife built to slip between armor plates. Low cutting power, but excellent penetration._
 
 ---
-## **Sickle** ($+)
+# **Sickle** ($+)
 **1-Handed • Advanced • Light • Blade (Knife)**  
 **Traits:** [[1.2 Weapon Traits|{Trip}]], [[1.2 Weapon Traits|{Disarm}]], [[1.2 Weapon Traits|{Deadly}]] 1d8, [[1.2 Weapon Traits|{Hooked}]]
 
@@ -218,7 +214,7 @@ _A narrow, rigid thrusting knife built to slip between armor plates. Low cutting
 _A hooked edge adapted from a tool into a weapon. Useful for snagging, pulling, and close-in cuts._
 
 ---
-## **Fighting Knife** ($+)
+# **Fighting Knife** ($+)
 **1-Handed • Martial • Medium • Blade (Knife/Sword)**  
 **Traits:** [[1.2 Weapon Traits|{Predatory}]] 1, [[1.2 Weapon Traits|{Close-Quarters}]]
 
@@ -229,7 +225,7 @@ _A hooked edge adapted from a tool into a weapon. Useful for snagging, pulling, 
 _A sturdy combat knife with a reinforced spine. More forceful and versatile than a dagger, but not as refined as a sword._
 
 ---
-## **Kris Knife** ($+)
+# **Kris Knife** ($+)
 **1-Handed • Martial • Light • Blade (Knife)**
 **Traits:** [[1.2 Weapon Traits|{Predatory}]] 2, [[1.2 Weapon Traits|{Serrated}]] 1d6
 
@@ -240,7 +236,7 @@ _A sturdy combat knife with a reinforced spine. More forceful and versatile than
 _A wavy-edged blade meant to cause tearing wounds. Weak base damage, but punishing once a target is opened up._
 
 ---
-## **Parrying Knife** ($+)
+# **Parrying Knife** ($+)
 **1-Handed • Martial • Light • Blade (Knife)**  
 **Traits:** [[1.2 Weapon Traits|{Parry}]] 2, [[1.2 Weapon Traits|{Disarm}]]
 
