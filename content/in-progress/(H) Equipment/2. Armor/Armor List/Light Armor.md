@@ -11,7 +11,7 @@ aliases:
   - Fencer's Skin
   - Arming Jacket
 ---
-- <font color="#4bacc6">Light</font> armors require at least -2 [[1.3 Primary Attribute|PHY]], and do not change the wearer's [[1.2 Initiative|Initiative]]. 
+- <font color="#4bacc6">Light</font> armors require at least -2 [[2. Attributes & C|PHY]], and do not change the wearer's [[1.2 Initiative|Initiative]]. 
 	  Don/Doff: 1 min, 1 min.
 	  Can only gain the half-benefits of a [[1.2 Rest|Long Rest]] if doing so while wearing this armor.
 
