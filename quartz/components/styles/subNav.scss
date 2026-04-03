@@ -1,0 +1,58 @@
+.sub-nav {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .nav-container {
+    width: 80%;
+    background-color: #1e1111; // Darker brownish-red for the box
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    padding: 0.3rem;
+    overflow-x: auto;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0;
+
+    a {
+      display: block;
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      font-family: var(--headerFont);
+      font-weight: 500;
+      color: var(--gray);
+      text-decoration: none;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: var(--darkgray);
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+
+      &.active {
+        color: var(--secondary); // Gold active text
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}

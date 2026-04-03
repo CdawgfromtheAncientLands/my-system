@@ -7,6 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [
     Component.MobileOnly(Component.Spacer()),
     Component.TopNav({ title: "Quick Nav" }),
+    Component.SubNav(),
   ],
   afterBody: [],
   footer: Component.Footer({
