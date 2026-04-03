@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#2e1a1a",         // Deep brownish-red background
+          lightgray: "#4a2c2c",     // Slightly lighter for borders/dividers
+          gray: "#8e6e6e",          // Graph links/heavier borders
+          darkgray: "#f2e9e9",      // Body text (Off-white)
+          dark: "#ffffff",          // Header text and icons (Pure white)
+          secondary: "#d4af37",     // Gold/link color
+          tertiary: "#cc7052",      // Terracotta hover state
+          highlight: "rgba(212, 175, 55, 0.15)", // Gold highlight
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#1e1111",         // Even deeper brown-red for dark mode
+          lightgray: "#3d2222",
+          gray: "#7a5a5a",
+          darkgray: "#e5d5d5",
+          dark: "#ffffff",
+          secondary: "#e0c15e",     // Brighter gold for dark mode
+          tertiary: "#ff8c69",
+          highlight: "rgba(224, 193, 94, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },

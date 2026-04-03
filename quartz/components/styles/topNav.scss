@@ -55,11 +55,13 @@
 
       &:hover {
         color: var(--secondary);
+        background-color: rgba(255, 255, 255, 0.05);
       }
 
       &.active {
         color: var(--secondary);
         border-bottom: 2px solid var(--secondary);
+        background-color: rgba(255, 255, 255, 0.1);
       }
     }
   }
