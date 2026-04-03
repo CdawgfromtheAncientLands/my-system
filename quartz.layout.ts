@@ -43,25 +43,33 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       filterFn: (node) => {
         // Dynamic Filter: Only show files that are inside the current top-level folder
-        // We get the current top-level folder from the URL
         const currentPath = window.location.pathname
-        const pathSegments = currentPath.split("/").filter(s => s.length > 0)
+        // Remove trailing slash if it exists
+        const cleanPath = currentPath.replace(/\/$/, "")
+        const pathSegments = cleanPath.split("/").filter(s => s.length > 0)
         
-        // If we are on a top-level folder page or deeper (e.g., /Act-of-Will/...)
-        // pathSegments[0] will be something like "Act-of-Will"
-        const currentTopLevel = pathSegments[0] === "my-system" ? pathSegments[1] : pathSegments[0]
+        // Handle GitHub Pages base path: /my-system/Act-of-Will/...
+        // pathSegments[0] might be "my-system"
+        let currentTopLevel = ""
+        if (pathSegments.length > 0) {
+          if (pathSegments[0] === "my-system") {
+            currentTopLevel = pathSegments[1] || ""
+          } else {
+            currentTopLevel = pathSegments[0] || ""
+          }
+        }
 
         // Hide the top-level folders themselves from the tree
         if (node.isFolder && node.depth === 1) return false
         
-        // If we are on the home page (no top level), show everything? 
-        // Or show nothing in explorer? Let's show everything except top-level folders.
+        // If we are on the home page or an unknown page, show everything except tags
         if (!currentTopLevel || currentTopLevel === "index") {
            return node.slugSegment !== "tags"
         }
 
-        // Filter: node must start with the same top-level slug
-        return node.fullSlug.startsWith(currentTopLevel)
+        // Filter: node must start with the same top-level slug segment
+        // node.slug is a FullSlug (string)
+        return node.slug.startsWith(currentTopLevel)
       },
     }),
   ],
@@ -90,11 +98,19 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       filterFn: (node) => {
         const currentPath = window.location.pathname
-        const pathSegments = currentPath.split("/").filter(s => s.length > 0)
-        const currentTopLevel = pathSegments[0] === "my-system" ? pathSegments[1] : pathSegments[0]
+        const cleanPath = currentPath.replace(/\/$/, "")
+        const pathSegments = cleanPath.split("/").filter(s => s.length > 0)
+        let currentTopLevel = ""
+        if (pathSegments.length > 0) {
+          if (pathSegments[0] === "my-system") {
+            currentTopLevel = pathSegments[1] || ""
+          } else {
+            currentTopLevel = pathSegments[0] || ""
+          }
+        }
         if (node.isFolder && node.depth === 1) return false
         if (!currentTopLevel || currentTopLevel === "index") return node.slugSegment !== "tags"
-        return node.fullSlug.startsWith(currentTopLevel)
+        return node.slug.startsWith(currentTopLevel)
       },
     }),
   ],
