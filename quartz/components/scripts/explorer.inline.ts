@@ -210,6 +210,10 @@ async function setupExplorer(currentSlug: FullSlug) {
     // Strip the /index suffix so relative links are computed correctly.
     const slugForLinks = simplifySlug(currentSlug) as unknown as FullSlug
 
+    // Clear stale items from previous navigation before inserting new ones.
+    // Links are relative to currentSlug, so old items would 404 from a different page.
+    explorerUl.innerHTML = ""
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
@@ -219,7 +223,7 @@ async function setupExplorer(currentSlug: FullSlug) {
 
       fragment.appendChild(node)
     }
-    explorerUl.insertBefore(fragment, explorerUl.firstChild)
+    explorerUl.appendChild(fragment)
 
     // restore explorer scrollTop position if it exists
     const scrollTop = sessionStorage.getItem("explorerScrollTop")
