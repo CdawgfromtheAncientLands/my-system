@@ -1,8 +1,8 @@
 ---
-title: The Daring
+title: My System
 ---
 
-# The Daring SRD
+# My System SRD
 
-Welcome to the rules reference for The Daring.
+Welcome to the rules reference for My System.
 Use the sidebar or search to browse sections.
