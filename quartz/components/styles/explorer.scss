@@ -25,13 +25,58 @@
     }
   }
 }
-
 .explorer {
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  transition: all 0.5s ease;
+
+  // Desktop Drawer Style
+  @media all and not ($mobile) {
+    position: fixed;
+    left: 0;
+    top: 15%;
+    bottom: 15%;
+    width: 300px;
+    z-index: 1000;
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    padding: 1rem;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    transform: translateX(-260px); // Only show a small handle
+
+    &:hover, &.open {
+      transform: translateX(0);
+    }
+
+    button.desktop-explorer {
+       justify-content: flex-end;
+       h2 {
+         writing-mode: vertical-lr;
+         transform: rotate(180deg);
+         margin: 1rem 0;
+       }
+       .fold {
+         display: none;
+       }
+    }
+
+    &:hover button.desktop-explorer, &.open button.desktop-explorer {
+       justify-content: space-between;
+       h2 {
+         writing-mode: horizontal-tb;
+         transform: none;
+       }
+       .fold {
+         display: block;
+       }
+    }
+  }
 
   min-height: 1.2rem;
+...
   flex: 0 1 auto;
   &.collapsed {
     flex: 0 1 1.2rem;

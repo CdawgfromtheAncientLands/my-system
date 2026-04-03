@@ -41,6 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
       filterFn: (node) => {
         // Dynamic Filter: Only show files that are inside the current top-level folder
         const currentPath = window.location.pathname
@@ -96,6 +97,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
       filterFn: (node) => {
         const currentPath = window.location.pathname
         const cleanPath = currentPath.replace(/\/$/, "")
