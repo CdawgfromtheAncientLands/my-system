@@ -38,7 +38,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.TopNav({ title: "Quick Nav" }),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Hide top-level folders that have an index file
+        const isTopLevelFolder = node.isFolder && node.depth === 1
+        return !isTopLevelFolder && node.slugSegment !== "tags"
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +69,13 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.TopNav({ title: "Quick Nav" }),
+    Component.Explorer({
+      filterFn: (node) => {
+        const isTopLevelFolder = node.isFolder && node.depth === 1
+        return !isTopLevelFolder && node.slugSegment !== "tags"
+      },
+    }),
   ],
   right: [],
 }

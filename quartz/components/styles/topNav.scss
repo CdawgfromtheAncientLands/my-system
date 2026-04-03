@@ -1,0 +1,64 @@
+.top-nav {
+  margin-bottom: 1rem;
+
+  h3 {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+
+  .nav-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    // Hide scrollbar for Chrome, Safari and Opera
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    
+    // Hide scrollbar for IE, Edge and Firefox
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.5rem;
+  }
+
+  .nav-item {
+    margin: 0;
+
+    a {
+      display: block;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--darkgray);
+      background-color: var(--lightgray);
+      text-decoration: none;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: var(--gray);
+        color: var(--dark);
+      }
+
+      &.active {
+        background-color: var(--secondary);
+        color: var(--light);
+      }
+    }
+  }
+}
