@@ -47,7 +47,7 @@ export default ((userOpts?: Partial<Options>) => {
         ...f,
         icon: f.name.toLowerCase().includes("will") 
           ? <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
-          : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-1.447.894l-3.659-1.83a2 2 0 0 0-1.788 0l-3.659 1.83a2 2 0 0 1-1.788 0l-3.659-1.83A1 1 0 0 0 3 17.381V4.617a1 1 0 0 1 1.447-.894l3.659 1.83a2 2 0 0 0 1.788 0z"/><path d="M9 3.5v13"/><path d="M15 7.5v13"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mountain-path"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M12 11c-0.5 2-2 4-1 6s-2 4-1 7" opacity="0.8" stroke-dasharray="2 1"/></svg>
       }))
     ]
 
