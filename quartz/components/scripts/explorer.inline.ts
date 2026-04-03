@@ -228,6 +228,17 @@ async function setupExplorer(currentSlug: FullSlug) {
       }
     }
 
+    // Forward wheel events on the explorer to the scrollable list
+    const scrollTarget = explorer.querySelector("ul.overflow") as HTMLElement | null
+    if (scrollTarget) {
+      const onWheel = (e: WheelEvent) => {
+        e.preventDefault()
+        scrollTarget.scrollTop += e.deltaY
+      }
+      explorer.addEventListener("wheel", onWheel, { passive: false })
+      window.addCleanup(() => explorer.removeEventListener("wheel", onWheel))
+    }
+
     // Set up event handlers
     const explorerButtons = explorer.getElementsByClassName(
       "explorer-toggle",

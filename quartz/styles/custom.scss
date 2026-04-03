@@ -1,3 +1,33 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Scrollbar styling
+:root[saved-theme="light"],
+:root:not([saved-theme="dark"]) {
+  scrollbar-color: #d4af37 #4a2c2c;
+}
+
+:root[saved-theme="dark"] {
+  scrollbar-color: #e0c15e #3d2222;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lightgray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 4px;
+  border: 2px solid var(--lightgray);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tertiary);
+}
