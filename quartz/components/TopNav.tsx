@@ -19,20 +19,26 @@ export default ((userOpts?: Partial<Options>) => {
   }: QuartzComponentProps) => {
     const opts = { ...defaultOptions, ...userOpts }
     
-    // Find top-level folders by looking for index files at the first level
-    // e.g. "Act of Will/index" -> slug: "Act-of-Will/index"
-    // We want to find unique top-level directory names that have an index file
-    const topLevelFolders = allFiles
-      .filter((file) => {
-        const slugParts = file.slug?.split("/")
-        return slugParts?.length === 2 && slugParts[1] === "index"
-      })
-      .map((file) => {
-        const name = file.frontmatter?.title ?? file.slug?.split("/")[0] ?? ""
-        return {
-          name,
-          slug: file.slug as FullSlug,
+    // Find top-level folders by looking at the first segment of all slugs
+    const folders = new Map<string, FullSlug>()
+    allFiles.forEach((file) => {
+      const parts = file.slug?.split("/")
+      if (parts && parts.length > 1 && parts[0] !== "tags") {
+        const folderSlug = parts[0]
+        if (!folders.has(folderSlug)) {
+          // Store the folder slug. Quartz will automatically route this to a folder page.
+          folders.set(folderSlug, folderSlug as FullSlug)
         }
+      }
+    })
+
+    const topLevelFolders = Array.from(folders.entries())
+      .map(([slug, fullSlug]) => {
+        // Try to find a nice display name by looking for an index file in that folder,
+        // or just un-slugify the folder name.
+        const indexFile = allFiles.find(f => f.slug === `${slug}/index`)
+        const name = indexFile?.frontmatter?.title ?? slug.replace(/-/g, " ")
+        return { name, slug: fullSlug }
       })
       .sort((a, b) => a.name.localeCompare(b.name))
 
