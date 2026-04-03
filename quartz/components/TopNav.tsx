@@ -42,8 +42,13 @@ export default ((userOpts?: Partial<Options>) => {
 
     // Add Home link
     const navItems = [
-      { name: "Home", slug: "index" as FullSlug },
-      ...topLevelFolders
+      { name: "Home", slug: "index" as FullSlug, icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> },
+      ...topLevelFolders.map(f => ({
+        ...f,
+        icon: f.name.toLowerCase().includes("will") 
+          ? <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
+          : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-1.447.894l-3.659-1.83a2 2 0 0 0-1.788 0l-3.659 1.83a2 2 0 0 1-1.788 0l-3.659-1.83A1 1 0 0 0 3 17.381V4.617a1 1 0 0 1 1.447-.894l3.659 1.83a2 2 0 0 0 1.788 0z"/><path d="M9 3.5v13"/><path d="M15 7.5v13"/></svg>
+      }))
     ]
 
     return (
@@ -61,13 +66,20 @@ export default ((userOpts?: Partial<Options>) => {
                     href={resolveRelative(fileData.slug!, folder.slug)}
                     class={classNames("internal", isActive ? "active" : "")}
                   >
-                    {folder.name}
+                    <span class="nav-icon">{folder.icon}</span>
+                    <span class="nav-text">{folder.name}</span>
                   </a>
                 </li>
               )
             })}
           </ul>
         </nav>
+        <div class="curlicue-divider">
+          <svg viewBox="0 0 100 20" preserveAspectRatio="none">
+             <path d="M0,10 Q25,0 50,10 T100,10" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+             <path d="M0,12 Q25,2 50,12 T100,12" fill="none" stroke="currentColor" stroke-width="0.2" opacity="0.3"/>
+          </svg>
+        </div>
       </div>
     )
   }
