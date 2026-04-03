@@ -34,33 +34,38 @@ export default ((userOpts?: Partial<Options>) => {
 
     const topLevelFolders = Array.from(folders.entries())
       .map(([slug, fullSlug]) => {
-        // Try to find a nice display name by looking for an index file in that folder,
-        // or just un-slugify the folder name.
         const indexFile = allFiles.find(f => f.slug === `${slug}/index`)
         const name = indexFile?.frontmatter?.title ?? slug.replace(/-/g, " ")
         return { name, slug: fullSlug }
       })
       .sort((a, b) => a.name.localeCompare(b.name))
 
-    if (topLevelFolders.length === 0) {
-      return null
-    }
+    // Add Home link
+    const navItems = [
+      { name: "Home", slug: "index" as FullSlug },
+      ...topLevelFolders
+    ]
 
     return (
       <div class={classNames(displayClass, "top-nav")}>
-        {opts.title && <h3>{opts.title}</h3>}
         <nav class="nav-container">
           <ul class="nav-list">
-            {topLevelFolders.map((folder) => (
-              <li class="nav-item">
-                <a
-                  href={resolveRelative(fileData.slug!, folder.slug)}
-                  class={classNames("internal", fileData.slug?.startsWith(folder.slug.split("/")[0]) ? "active" : "")}
-                >
-                  {folder.name}
-                </a>
-              </li>
-            ))}
+            {navItems.map((folder) => {
+              const isActive = folder.slug === "index" 
+                ? (fileData.slug === "index")
+                : fileData.slug?.startsWith(folder.slug.split("/")[0])
+              
+              return (
+                <li class="nav-item">
+                  <a
+                    href={resolveRelative(fileData.slug!, folder.slug)}
+                    class={classNames("internal", isActive ? "active" : "")}
+                  >
+                    {folder.name}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
         </nav>
       </div>

@@ -4,7 +4,10 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.MobileOnly(Component.Spacer()),
+    Component.TopNav({ title: "Quick Nav" }),
+  ],
   afterBody: [],
   footer: Component.Footer({
     links: {
@@ -27,7 +30,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         {
@@ -38,12 +40,28 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.TopNav({ title: "Quick Nav" }),
     Component.Explorer({
       filterFn: (node) => {
-        // Hide top-level folders that have an index file
-        const isTopLevelFolder = node.isFolder && node.depth === 1
-        return !isTopLevelFolder && node.slugSegment !== "tags"
+        // Dynamic Filter: Only show files that are inside the current top-level folder
+        // We get the current top-level folder from the URL
+        const currentPath = window.location.pathname
+        const pathSegments = currentPath.split("/").filter(s => s.length > 0)
+        
+        // If we are on a top-level folder page or deeper (e.g., /Act-of-Will/...)
+        // pathSegments[0] will be something like "Act-of-Will"
+        const currentTopLevel = pathSegments[0] === "my-system" ? pathSegments[1] : pathSegments[0]
+
+        // Hide the top-level folders themselves from the tree
+        if (node.isFolder && node.depth === 1) return false
+        
+        // If we are on the home page (no top level), show everything? 
+        // Or show nothing in explorer? Let's show everything except top-level folders.
+        if (!currentTopLevel || currentTopLevel === "index") {
+           return node.slugSegment !== "tags"
+        }
+
+        // Filter: node must start with the same top-level slug
+        return node.fullSlug.startsWith(currentTopLevel)
       },
     }),
   ],
@@ -69,11 +87,14 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.TopNav({ title: "Quick Nav" }),
     Component.Explorer({
       filterFn: (node) => {
-        const isTopLevelFolder = node.isFolder && node.depth === 1
-        return !isTopLevelFolder && node.slugSegment !== "tags"
+        const currentPath = window.location.pathname
+        const pathSegments = currentPath.split("/").filter(s => s.length > 0)
+        const currentTopLevel = pathSegments[0] === "my-system" ? pathSegments[1] : pathSegments[0]
+        if (node.isFolder && node.depth === 1) return false
+        if (!currentTopLevel || currentTopLevel === "index") return node.slugSegment !== "tags"
+        return node.fullSlug.startsWith(currentTopLevel)
       },
     }),
   ],
