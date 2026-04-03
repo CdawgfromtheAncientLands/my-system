@@ -205,12 +205,17 @@ async function setupExplorer(currentSlug: FullSlug) {
     const explorerUl = explorer.querySelector(".explorer-ul")
     if (!explorerUl) continue
 
+    // Folder pages have slug "Foo/index" but URL "/Foo" (no trailing slash).
+    // pathToRoot("Foo/index") = ".." which overshoots the base path.
+    // Strip the /index suffix so relative links are computed correctly.
+    const slugForLinks = simplifySlug(currentSlug) as unknown as FullSlug
+
     // Create and insert new content
     const fragment = document.createDocumentFragment()
     for (const child of trie.children) {
       const node = child.isFolder
-        ? createFolderNode(currentSlug, child, opts)
-        : createFileNode(currentSlug, child)
+        ? createFolderNode(slugForLinks, child, opts)
+        : createFileNode(slugForLinks, child)
 
       fragment.appendChild(node)
     }
