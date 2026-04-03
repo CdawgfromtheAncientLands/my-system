@@ -87,6 +87,16 @@ export default ((userOpts?: Partial<Options>) => {
     )
   }
 
+  TopNav.afterDOMLoaded = `
+document.addEventListener("nav", () => {
+  const article = document.querySelector("article")
+  if (!article) return
+  article.classList.remove("page-enter")
+  void article.offsetWidth
+  article.classList.add("page-enter")
+})
+`
+
   TopNav.css = style
   return TopNav
 }) satisfies QuartzComponentConstructor

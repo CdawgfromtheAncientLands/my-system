@@ -2,7 +2,9 @@
 
 // put your custom CSS here!
 
-// Scrollbar styling
+// ==========================================
+// SCROLLBAR
+// ==========================================
 :root[saved-theme="light"],
 :root:not([saved-theme="dark"]) {
   scrollbar-color: #d4af37 #4a2c2c;
@@ -30,4 +32,346 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--tertiary);
+}
+
+// ==========================================
+// PAPER TEXTURE OVERLAY
+// ==========================================
+#quartz-root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+
+// ==========================================
+// STICKY HEADER
+// ==========================================
+.page > #quartz-body > .center > .page-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--light);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lightgray);
+  margin-bottom: 0.5rem;
+}
+
+// ==========================================
+// TYPOGRAPHY
+// ==========================================
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+h2, h3 {
+  line-height: 1.25;
+}
+
+// Drop cap on first paragraph of article content
+article.popover-hint > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--headerFont);
+  font-size: 3.8em;
+  line-height: 0.75;
+  margin: 0.06em 0.1em 0 0;
+  color: var(--secondary);
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+// ==========================================
+// BLOCKQUOTES
+// ==========================================
+blockquote {
+  border-left: 3px solid var(--secondary) !important;
+  padding: 0.6rem 1.2rem 0.6rem 1.4rem;
+  font-style: italic;
+  color: var(--darkgray);
+  background: rgba(212, 175, 55, 0.05);
+  border-radius: 0 4px 4px 0;
+  margin: 1.5rem 0;
+
+  p {
+    margin: 0.2rem 0;
+  }
+}
+
+// ==========================================
+// DECORATIVE HR
+// ==========================================
+hr {
+  border: none !important;
+  height: 1.2em !important;
+  background: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+  overflow: visible;
+  position: relative;
+
+  &::after {
+    content: '⸻ ✦ ⸻';
+    position: absolute;
+    color: var(--secondary);
+    font-size: 0.85em;
+    letter-spacing: 0.25em;
+    opacity: 0.65;
+    background: var(--light);
+    padding: 0 0.5rem;
+    white-space: nowrap;
+  }
+}
+
+// ==========================================
+// TABLES
+// ==========================================
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+
+  th {
+    background: var(--lightgray);
+    color: var(--secondary);
+    font-family: var(--headerFont);
+    letter-spacing: 0.05em;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--lightgray);
+    font-weight: 600;
+  }
+
+  td {
+    padding: 0.4rem 0.75rem;
+    border: 1px solid var(--lightgray);
+  }
+
+  tr:nth-child(even) td {
+    background: rgba(212, 175, 55, 0.04);
+  }
+
+  tr:hover td {
+    background: rgba(212, 175, 55, 0.08);
+    transition: background 0.15s ease;
+  }
+}
+
+// ==========================================
+// TOP NAV ACTIVE GLOW
+// ==========================================
+.top-nav .nav-item a.active {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--secondary);
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+    border-radius: 1px;
+  }
+}
+
+// ==========================================
+// BREADCRUMB - CHAPTER PATH STYLE
+// ==========================================
+.breadcrumb-container {
+  opacity: 0.75;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+}
+
+.breadcrumb-element {
+  color: var(--gray);
+
+  a {
+    color: var(--gray) !important;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--secondary) !important;
+    }
+  }
+
+  svg {
+    color: var(--secondary);
+    opacity: 0.5;
+  }
+}
+
+// ==========================================
+// PAGE TRANSITION
+// ==========================================
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: pageEnter 0.28s ease forwards;
+}
+
+// ==========================================
+// CALLOUT THEMING
+// ==========================================
+.callout {
+  &[data-callout="note"],
+  &[data-callout="info"],
+  &[data-callout="abstract"],
+  &[data-callout="summary"] {
+    --color: #d4af37;
+    --border: rgba(212, 175, 55, 0.3);
+    --bg: rgba(212, 175, 55, 0.07);
+  }
+
+  &[data-callout="warning"],
+  &[data-callout="caution"],
+  &[data-callout="attention"] {
+    --color: #cc7052;
+    --border: rgba(204, 112, 82, 0.3);
+    --bg: rgba(204, 112, 82, 0.07);
+  }
+
+  &[data-callout="tip"],
+  &[data-callout="hint"],
+  &[data-callout="important"] {
+    --color: #8ea86a;
+    --border: rgba(142, 168, 106, 0.3);
+    --bg: rgba(142, 168, 106, 0.07);
+  }
+
+  &[data-callout="danger"],
+  &[data-callout="failure"],
+  &[data-callout="error"] {
+    --color: #a84a4a;
+    --border: rgba(168, 74, 74, 0.3);
+    --bg: rgba(168, 74, 74, 0.07);
+  }
+
+  &[data-callout="example"] {
+    --color: #8e6e9e;
+    --border: rgba(142, 110, 158, 0.3);
+    --bg: rgba(142, 110, 158, 0.07);
+  }
+
+  &[data-callout="quote"] {
+    --color: #7a8fa6;
+    --border: rgba(122, 143, 166, 0.3);
+    --bg: rgba(122, 143, 166, 0.07);
+  }
+}
+
+// ==========================================
+// EXPLORER POLISH
+// ==========================================
+.explorer-content li > a {
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--secondary) !important;
+  }
+}
+
+// ==========================================
+// LANDING PAGE
+// ==========================================
+.title-page {
+  text-align: center;
+  padding: 2rem 0 3rem;
+
+  .title-byline {
+    font-family: var(--headerFont);
+    color: var(--secondary);
+    font-size: 0.95em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+    opacity: 0.8;
+  }
+
+  .title-divider {
+    color: var(--secondary);
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    opacity: 0.5;
+    margin: 1.2rem 0;
+  }
+
+  .title-description {
+    max-width: 480px;
+    margin: 0 auto;
+    font-style: italic;
+    color: var(--darkgray);
+    opacity: 0.85;
+    line-height: 1.7;
+  }
+
+  .title-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    align-items: center;
+  }
+
+  .title-section-card {
+    display: block;
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    max-width: 420px;
+    text-align: left;
+    text-decoration: none !important;
+    transition: border-color 0.2s ease, background 0.2s ease;
+
+    &:hover {
+      border-color: var(--secondary);
+      background: rgba(212, 175, 55, 0.06);
+
+      .card-title {
+        color: var(--secondary);
+      }
+    }
+
+    .card-icon {
+      font-size: 1.1em;
+      margin-right: 0.5rem;
+    }
+
+    .card-title {
+      font-family: var(--headerFont);
+      font-size: 1.05em;
+      letter-spacing: 0.05em;
+      color: var(--dark);
+      display: block;
+      margin-bottom: 0.3rem;
+      transition: color 0.2s ease;
+    }
+
+    .card-desc {
+      font-size: 0.85em;
+      color: var(--gray);
+      display: block;
+      font-style: italic;
+    }
+  }
 }
