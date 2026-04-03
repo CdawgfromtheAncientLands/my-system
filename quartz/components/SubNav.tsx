@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug } from "../util/path"
 import { classNames } from "../util/lang"
 // @ts-ignore
 import style from "./styles/subNav.scss"
@@ -18,6 +18,7 @@ export default ((userOpts?: Partial<Options>) => {
     cfg,
   }: QuartzComponentProps) => {
     const opts = { ...defaultOptions, ...userOpts }
+    const basePath = cfg.baseUrl ? new URL(`https://${cfg.baseUrl}`).pathname.replace(/\/$/, "") : ""
     
     // 1. Determine current top-level folder from current page
     const currentPath = fileData.slug || ""
@@ -40,9 +41,11 @@ export default ((userOpts?: Partial<Options>) => {
       .map((file) => {
         const slugParts = file.slug?.split("/")
         const name = file.frontmatter?.title ?? slugParts![1].replace(/-/g, " ")
+        const folderSlug = slugParts!.slice(0, 2).join("/")
         return {
           name,
           slug: file.slug as FullSlug,
+          href: `${basePath}/${folderSlug}`,
         }
       })
       .sort((a, b) => a.name.localeCompare(b.name))
@@ -61,7 +64,7 @@ export default ((userOpts?: Partial<Options>) => {
               return (
                 <li class="nav-item">
                   <a
-                    href={resolveRelative(fileData.slug!, folder.slug)}
+                    href={folder.href}
                     class={classNames("internal", isActive ? "active" : "")}
                   >
                     {folder.name}

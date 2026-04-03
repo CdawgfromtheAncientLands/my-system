@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug } from "../util/path"
 import { classNames } from "../util/lang"
 // @ts-ignore
 import style from "./styles/topNav.scss"
@@ -18,7 +18,8 @@ export default ((userOpts?: Partial<Options>) => {
     cfg,
   }: QuartzComponentProps) => {
     const opts = { ...defaultOptions, ...userOpts }
-    
+    const basePath = cfg.baseUrl ? new URL(`https://${cfg.baseUrl}`).pathname.replace(/\/$/, "") : ""
+
     // Find top-level folders by looking at the first segment of all slugs
     const folders = new Map<string, FullSlug>()
     allFiles.forEach((file) => {
@@ -26,25 +27,25 @@ export default ((userOpts?: Partial<Options>) => {
       if (parts && parts.length > 1 && parts[0] !== "tags") {
         const folderSlug = parts[0]
         if (!folders.has(folderSlug)) {
-          // Store the folder slug. Quartz will automatically route this to a folder page.
           folders.set(folderSlug, folderSlug as FullSlug)
         }
       }
     })
 
     const topLevelFolders = Array.from(folders.entries())
-      .map(([slug, fullSlug]) => {
+      .map(([slug]) => {
         const indexFile = allFiles.find(f => f.slug === `${slug}/index`)
         const name = indexFile?.frontmatter?.title ?? slug.replace(/-/g, " ")
-        return { name, slug: fullSlug }
+        return { name, slug }
       })
       .sort((a, b) => a.name.localeCompare(b.name))
 
     // Add Home link
     const navItems = [
-      { name: "Home", slug: "index" as FullSlug, icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> },
+      { name: "Home", slug: "index", href: `${basePath}/`, icon: <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-home"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> },
       ...topLevelFolders.map(f => ({
         ...f,
+        href: `${basePath}/${f.slug}`,
         icon: f.name.toLowerCase().includes("will")
           ? <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sword"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" x2="19" y1="19" y2="13"/><line x1="16" x2="20" y1="16" y2="20"/><line x1="19" x2="21" y1="21" y2="19"/></svg>
           : f.name.toLowerCase().includes("archive")
@@ -57,19 +58,19 @@ export default ((userOpts?: Partial<Options>) => {
       <div class={classNames(displayClass, "top-nav")}>
         <nav class="nav-container">
           <ul class="nav-list">
-            {navItems.map((folder) => {
-              const isActive = folder.slug === "index" 
+            {navItems.map((item) => {
+              const isActive = item.slug === "index"
                 ? (fileData.slug === "index")
-                : fileData.slug?.startsWith(folder.slug.split("/")[0])
-              
+                : fileData.slug?.startsWith(item.slug.split("/")[0])
+
               return (
                 <li class="nav-item">
                   <a
-                    href={resolveRelative(fileData.slug!, folder.slug)}
+                    href={item.href}
                     class={classNames("internal", isActive ? "active" : "")}
                   >
-                    <span class="nav-icon">{folder.icon}</span>
-                    <span class="nav-text">{folder.name}</span>
+                    <span class="nav-icon">{item.icon}</span>
+                    <span class="nav-text">{item.name}</span>
                   </a>
                 </li>
               )
