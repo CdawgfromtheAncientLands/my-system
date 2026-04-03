@@ -1,6 +1,6 @@
 # License Information
 
-All text within this `/content` directory is **© 2025 Collin Russell**.
+All text within this `/content` directory is **© 2026 Collin Russell**.
 
 This material is licensed under the  
 **Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0)**.
