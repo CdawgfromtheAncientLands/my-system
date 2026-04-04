@@ -86,7 +86,16 @@ async function _navigate(url: URL, isBack: boolean = false) {
   cleanupFns.clear()
 
   const html = p.parseFromString(contents, "text/html")
-  normalizeRelativeURLs(html, url)
+  // Folder index pages (slug "Foo/index") are served at URL "/base/Foo" (no trailing slash).
+  // pathToRoot("Foo/index") emits ".." for the index segment, so without a trailing slash
+  // new URL("..", ".../base/Foo") walks up past "/base/" to "/".
+  // Appending a slash fixes the base so "../SomePage" resolves to "/base/SomePage".
+  const slug = (html.body?.dataset.slug ?? "") as FullSlug
+  const normUrl =
+    slug.endsWith("/index") && !url.pathname.endsWith("/")
+      ? new URL(url.pathname + "/", url.origin)
+      : url
+  normalizeRelativeURLs(html, normUrl)
 
   let title = html.querySelector("title")?.textContent
   if (title) {
