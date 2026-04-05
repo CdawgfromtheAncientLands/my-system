@@ -3,6 +3,37 @@
 // put your custom CSS here!
 
 // ==========================================
+// FORCE LIGHT MODE (dark mode disabled)
+// Overrides both saved-theme="dark" and OS-level prefers-color-scheme: dark
+// so the site always renders the light (reddish-brown) palette.
+// ==========================================
+:root[saved-theme="dark"] {
+  --light: #2e1a1a;
+  --lightgray: #4a2c2c;
+  --gray: #8e6e6e;
+  --darkgray: #f2e9e9;
+  --dark: #ffffff;
+  --secondary: #d4af37;
+  --tertiary: #cc7052;
+  --highlight: rgba(212, 175, 55, 0.15);
+  --textHighlight: #fff23688;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([saved-theme="light"]) {
+    --light: #2e1a1a;
+    --lightgray: #4a2c2c;
+    --gray: #8e6e6e;
+    --darkgray: #f2e9e9;
+    --dark: #ffffff;
+    --secondary: #d4af37;
+    --tertiary: #cc7052;
+    --highlight: rgba(212, 175, 55, 0.15);
+    --textHighlight: #fff23688;
+  }
+}
+
+// ==========================================
 // SCROLLBAR
 // ==========================================
 :root[saved-theme="light"],
