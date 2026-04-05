@@ -9,7 +9,7 @@ aliases:
   - Articulated Plate
   - Explorer's Platecoat
 ---
-- <font color="#d99694">Medium</font> armors require at least +0 [[2. Attributes & C|PHY]], and the wearer rolls a 1d10 for [[1.2 Initiative|Initiative]].
+- Medium armors require at least +0 [[2. Attributes & C|PHY]], and the wearer rolls a 1d10 for [[1.2 Initiative|Initiative]].
 	  Don/Doff: 10 min, 1 min.
 	  Can only gain the minimal benefits of a [[1.2 Rest|Long Rest]] if doing so while wearing this armor.
 	  You suffer the effects of high [[4. Ambient Effects|Temperature]] at double the frequency.

@@ -21,19 +21,21 @@ aliases:
   - "{Poison}"
   - "{Curse}"
   - "{Rider}"
+  - "{Attack}"
 ---
-
-## <font color="#ffc000">{Concentrate}</font>
+## {Attack}
+Actions with the [[{Attack}]] trait consist of hostile activity against a target or targets, causing some detrimental effect. Whenever you perform an [[Action & Effect Traits|{Attack}]] action, you suffer a stacking -3 penalty to [[1.1 Skill Checks|Skill Check]]s made during [[Action & Effect Traits|{Attack}]] actions until the end of the [[1.1 Encounters|Turn]] - referred to as the MAP, or Multiple Attack Penalty.
+## {Concentrate}
 Actions with the [[{Concentrate}]] trait require a good degree of complex thinking or focus to perform.
-## <font color="#ffc000">{Manipulate}</font>
+## {Manipulate}
 Actions with the [[{Manipulate}]] trait require involved manual action to perform, like picking a lock, unbuttoning a shirt, or loading a weapon.
-## <font color="#ffc000">{Melee}</font>
+## {Melee}
 Actions with the [[{Melee}]] trait are [[{Precise}]] and may only be performed against targets within your [[1.1 Weapon Overview|Melee Reach]].
-## <font color="#ffc000">{Move}</font>
+## {Move}
 Actions with the {Move} trait require movement of most or all of the performing creature’s body.
-## <font color="#ffc000">{Precise}</font>
+## {Precise}
 Actions with the {Precise} trait require specific designation of targets and can suffer penalties based on [[2.4 Detection Rating|Detection Rating]].
-## <font color="#ffc000">{Wrestle}</font>
+## {Wrestle}
 Actions with the {Wrestle} trait are always {Melee} and involve using one’s own body weight to physically influence another creature. Skill Checks made during a {Wrestle} action are modified according to the following table:
 
 | Relative Target Weight | Modifier                                          |
@@ -44,41 +46,41 @@ Actions with the {Wrestle} trait are always {Melee} and involve using one’s ow
 | 1 class larger         | [[1.3 Advantage & Disadvantage\|Disadvantage]]    |
 | 2+ classes larger      | 2x [[1.3 Advantage & Disadvantage\|Disadvantage]] |
 
-## <font color="#ffc000">{Mental}</font>
+## {Mental}
 Actions with the [[Action & Effect Traits|{Mental}]] trait can be performed with no physical effort whatsoever. Effects with the {Mental} trait do not affect creatures with 4 or less [[1.1 Attributes|Logic]].
-## <font color="#ffc000">{Visual}</font>
+## {Visual}
 Actions with the {Visual} trait only affect targets that can witness them with their [[1.4 Characteristics (WIP)|Vision]].
-## <font color="#ffc000">{Auditory}</font>
+## {Auditory}
 Actions with the {Auditory} trait only affect creatures that can hear them.
-## <font color="#ffc000">{Olfactory}</font>
+## {Olfactory}
 Actions with the {Auditory} trait only affect creatures that can SMELL them.
-## <font color="#ffc000">{Linguistic}</font>
+## {Linguistic}
 Actions with the {Linguistic} trait involve communication in a language and suffer -4 to [[1.1 Skill Checks|Skill Check]]s made to affect a creature that cannot understand that language.
-## <font color="#ffc000">{Emotion}</font>
+## {Emotion}
 Actions with the {Emotion} trait need to elicit emotions in their targets to be effective. Some creatures have dulled, heightened, or no emotion, varying their sensitivity to this trait..
-## <font color="#ffc000">{Compulsion}</font>
+## {Compulsion}
 Effects with the {Compulsion} trait override or influence a creature’s decisions, pushing them toward an action or state of mind.  
 Creatures immune to {Mental} effects are also immune to {Compulsion}.
-## <font color="#ffc000">{Fear}</font>
+## {Fear}
 Effects with the {Fear} trait attempt to terrify or panic the target.  
 Some creatures have resistances to {Fear}, while others are especially vulnerable.
-## <font color="#ffc000">{Sustain}</font>
+## {Sustain}
 Actions or effects with the {Sustain} trait persist only through continued concentration.  
 The performer must [[Action & Effect Traits|{Concentrate}]] as a [[1.4 Actions|Minor ⋄ Action]] action each round to maintain the effect; otherwise, the sustained effect ends immediately.
-## <font color="#ffc000">{Forced Move}</font>
+## {Forced Move}
 Effects with the {Forced Move} trait move a creature without using the creature’s own movement.  
 Forced movement does **not** trigger Reactions that would respond to {Move} actions and ignores normal movement penalties unless otherwise stated.
-## <font color="#ffc000">{Aura}</font>
+## {Aura}
 Effects with the {Aura} trait emanate from a creature or object in a constant radius.  
 Creatures entering, starting their turn in, or interacting with the aura are affected as described by the effect.
-## <font color="#ffc000">{Poison}</font>
+## {Poison}
 Effects with the {Poison} trait introduce a toxin or venom into the target’s body.  
 Poison typically targets [[1.2 Disciplines & Skills|Hardiness]], may progress over time, and is resisted by some creatures and immunities.
-## <font color="#ffc000">{Disease}</font>
+## {Disease}
 Effects with the {Disease} trait introduce a harmful biological agent that worsens over time.  
 Diseases generally have stages, require treatment, and may have long-term consequences if untreated.
-## <font color="#ffc000">{Curse}</font>
+## {Curse}
 Effects with the {Curse} trait impose long-lasting, often supernatural hindrances on the target.  
 Curses are difficult to remove and may require specific rituals, conditions, or rare circumstances to break.
-## <font color="#ffc000">{Rider}</font>
+## {Rider}
 See [[1.4 Actions|Rider ※]]. 

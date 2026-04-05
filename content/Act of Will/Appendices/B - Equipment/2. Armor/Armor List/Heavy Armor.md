@@ -11,7 +11,7 @@ aliases:
   - Knightly Harness
   - Siege Plate
 ---
-- <font color="#c00000">Heavy</font> armors require at least +2 [[2. Attributes & C|PHY]], and the wearer rolls a 1d8 for [[1.2 Initiative|Initiative]].
+- Heavy armors require at least +2 [[2. Attributes & C|PHY]], and the wearer rolls a 1d8 for [[1.2 Initiative|Initiative]].
 	  Don/Doff: 30 min, 10 min
 	  Can't benefit from [[1.2 Rest|Long Rest]]s while wearing. 
 	  You suffer the effects of high [[4. Ambient Effects|Temperature]] at double the frequency.

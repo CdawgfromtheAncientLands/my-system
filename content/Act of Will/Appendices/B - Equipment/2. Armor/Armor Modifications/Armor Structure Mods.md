@@ -16,10 +16,10 @@ _Extra armoring placed around sensitive joints and points of articulation, tradi
 **Buy & apply cost:** 0.3x the armor’s cost  
 **Repair $+** 10%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - +1 to two [[2.1 Armor Overview|Armor Rating]]s of your choice
 - Increase the armor’s **maximum Durability by 1 level** (Max 1d12).
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - + [[2.2 Armor Traits|{Inflexible}]]
 	- If the armor already has that trait, instead increase its **Reflex Penalty by 1**.
 - - [[2.2 Armor Traits|{Hushed}]].
@@ -32,10 +32,10 @@ _Armor plates or sections designed to shear away under extreme force._
 **Buy & apply cost:** 0.7x the armor’s cost  
 **Repair $+** 40%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - Reduce the armor’s **don/doff time by half** (minimum 1 action).
 - Gain the **Shear Armor** reaction.
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - Reduce the armor’s **maximum Durability by 1 level**.
 ### **Shear Armor (↻)**
 **Cost:** 2 Focus; reduce armor Durability by 1  
@@ -50,10 +50,10 @@ _Custom straps, redistributed weight paths, and reinforced rigging designed for 
 **Buy & apply cost:** 0.4x the armor’s cost  
 **Repair $+** 30%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - Reduce the armor’s **Worn Weight by 4 kg or by half (whichever is greater)**.
 - - [[2.2 Armor Traits|{Cumbersome}]]
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - +2kg Carried Weight
 
 ---
@@ -64,11 +64,11 @@ _Reworked joints and segmented plating prioritize motion and responsiveness at t
 **Buy & apply cost:** 0.8x the armor’s cost  
 **Repair $+** 50%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - Reflex Penalty -2
 - - [[2.2 Armor Traits|{Inflexible}]]
 - Ignore any **[[1.2 Initiative|Initiative]] penalty** imposed by the armor.
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - -3 to your choice of [[3.1 Damage & Resistance|Blade Damage]], [[3.1 Damage & Resistance|Blunt Damage]], or [[3.1 Damage & Resistance|Ballistic Damage]] [[2.1 Armor Overview|Armor Rating]].
 ---
 ## **Ultra-Light Undercoat**
@@ -78,11 +78,11 @@ _Internal restructuring and lightweight materials emphasize airflow and comfort 
 **Buy & apply cost:** 0.4x the armor’s cost  
 **Repair $+** 30%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - [[2.2 Armor Traits|{Stuffy}]] -2
 - [[2.2 Armor Traits|{Claustrophobic}]] -1
 - + [[2.2 Armor Traits|{Breathable}]]
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - -2 [[3.1 Damage & Resistance|Blunt Damage]] [[2.1 Armor Overview|Armor Rating]]
 - [[2.2 Armor Traits|{Bulwark}]] -1
 
@@ -94,10 +94,10 @@ _A heavily reinforced skeleton transforms the armor into a rigid survival shell.
 **Buy & apply cost:** 0.9x the armor’s cost  
 **Repair $+** 40%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - + [[2.2 Armor Traits|{Hard Frame}]].
     - If the armor already has that trait, instead +1 to three separate **[[2.1 Armor Overview|Armor Rating]]s** of your choice except the highest.
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - + [[2.2 Armor Traits|{Inflexible}]]
     - If it already had that trait, [[2.2 Armor Traits|{Stuffy}]] +2 instead.
 - + [[2.2 Armor Traits|{Cumbersome}]]
@@ -111,10 +111,10 @@ _Wide gauntlets, reinforced shins, and focused frontal armor optimized to receiv
 **Buy & apply cost:** 0.6x the armor’s cost  
 **Repair $+** 30%
 
-**<font color="#92d050">Bonuses</font>**
+**Bonuses**
 - +[[2.2 Armor Traits|{Anchored}]]
 - When [[2.2 Armor Traits|{Anchored}]] becomes active, increase a listed [[2.1 Armor Overview|Armor Rating]] of your choice by +1.
-**<font color="#c00000">Penalties</font>**
+**Penalties**
 - [[2.2 Armor Traits|{Claustrophobic}]] +1
 - + [[2.2 Armor Traits|{Cumbersome}]]
 	- If it already had that trait, + [[2.2 Armor Traits|{Inflexible}]].
