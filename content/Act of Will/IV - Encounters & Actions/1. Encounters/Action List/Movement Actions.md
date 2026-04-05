@@ -16,7 +16,7 @@ Effect (⋄). You walk/jog/run, swim, climb, fly, or burrow up to your respectiv
 Effect (⟐). Same as ⋄, except:
 - You may freely swap between multiple movement modes during the traversal.
 - Move an additional amount of feet equal to half your Speed.
-- During this traversal, you may Leap or Tumble Through once as a [[1.4 Actions|Free ✧ Action]].
+- During this traversal, you may Leap or Tumble Through once as a [[1.3 Actions|Free ✧ Action]].
 
 Balancing. When moving across narrow, unstable, or treacherous surfaces, the GM may call for an [[Finesse|Acrobatics]] check vs. a DC. Resolve the check using the following results before beginning the [[Movement Actions|Traverse]]. 
 - **Crit Success.** Move unimpeded.
@@ -47,7 +47,7 @@ Notes. The DC to swim through a calm pond is ~11, a slow river is ~14, and a rag
 # Step (⋄)
 [[Action & Effect Traits|{Move}]]
 Requirements. Your current relevant [[1.4 Characteristics (WIP)|Speed]] is at least 10ft.
-Effect. You carefully walk, burrow, fly, or swim 5ft. For the purposes of triggering [[1.4 Actions|Reaction ↻]]s, you do not count as having entered/left an area or performed a [[Action & Effect Traits|{Move}]] action.
+Effect. You carefully walk, burrow, fly, or swim 5ft. For the purposes of triggering [[1.3 Actions|Reaction ↻]]s, you do not count as having entered/left an area or performed a [[Action & Effect Traits|{Move}]] action.
 # Change Stance (⋄)
 [[Action & Effect Traits|{Move}]]
 Effect. You move from your current stance to a new one. Some examples of this are: going [[2.1 Reading a Condition|Prone]], standing up, crane stance, mounting/dismounting a vehicle or animal, or any special ability granted to the Change Stance action by a Talent you have.
@@ -63,7 +63,7 @@ Effect (⋄). You jump over a horizontal or vertical length equal to the length 
 - **Crit Fail.** Fall flat on your face. The GM decides the point in your leap at which you fail.
 # Tumble Through (⋄)
 [[Action & Effect Traits|{Move}]], [[Action & Effect Traits|{R.A.P.}]]
-Effect. You [[Movement Actions|Traverse]] as a [[1.4 Actions|Minor ⋄ Action]]. During the traversal, you may make an [[Finesse|Acrobatics]] check vs. the [[Core Skills|Reflex]], [[Athletics|Labor]], or [[Melee|Hand-to-Hand]] [[1.2 Disciplines & Skills|Skill DC]] (pick the current highest) of a creature blocking your path (their choice) OR vs. a set DC if facing an obstacle that is not a hostile creature.
+Effect. You [[Movement Actions|Traverse]] as a [[1.3 Actions|Minor ⋄ Action]]. During the traversal, you may make an [[Finesse|Acrobatics]] check vs. the [[Core Skills|Reflex]], [[Athletics|Labor]], or [[Melee|Hand-to-Hand]] [[1.2 Disciplines & Skills|Skill DC]] (pick the current highest) of a creature blocking your path (their choice) OR vs. a set DC if facing an obstacle that is not a hostile creature.
 - **Crit Success.** Same as Success, but without the movement penalty.
 - **Success.** Move through the obstacle's space as if it were [[1. Terrain|Difficult Terrain]].
 - **Fail.** Your movement ends in front of the obstacle.

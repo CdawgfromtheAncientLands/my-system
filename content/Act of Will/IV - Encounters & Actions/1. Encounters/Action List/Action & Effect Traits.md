@@ -22,9 +22,11 @@ aliases:
   - "{Curse}"
   - "{Rider}"
   - "{Attack}"
+  - MAP
+  - Multiple Attack Penalty
 ---
 ## {Attack}
-Actions with the [[{Attack}]] trait consist of hostile activity against a target or targets, causing some detrimental effect. Whenever you perform an [[Action & Effect Traits|{Attack}]] action, you suffer a stacking -3 penalty to [[1.1 Skill Checks|Skill Check]]s made during [[Action & Effect Traits|{Attack}]] actions until the end of the [[1.1 Encounters|Turn]] - referred to as the MAP, or Multiple Attack Penalty.
+Actions with the [[{Attack}]] trait consist of hostile activity against a target or targets, causing some detrimental effect. Whenever you perform an [[Action & Effect Traits|{Attack}]] action, you suffer a stacking -3 penalty to [[1.1 Skill Checks|Skill Check]]s made during [[Action & Effect Traits|{Attack}]] actions until the end of the [[1.1 Encounters|Turn]] (referred to as the MAP, or Multiple Attack Penalty).
 ## {Concentrate}
 Actions with the [[{Concentrate}]] trait require a good degree of complex thinking or focus to perform.
 ## {Manipulate}
@@ -66,7 +68,7 @@ Effects with the {Fear} trait attempt to terrify or panic the target.
 Some creatures have resistances to {Fear}, while others are especially vulnerable.
 ## {Sustain}
 Actions or effects with the {Sustain} trait persist only through continued concentration.  
-The performer must [[Action & Effect Traits|{Concentrate}]] as a [[1.4 Actions|Minor ⋄ Action]] action each round to maintain the effect; otherwise, the sustained effect ends immediately.
+The performer must [[Action & Effect Traits|{Concentrate}]] as a [[1.3 Actions|Minor ⋄ Action]] action each round to maintain the effect; otherwise, the sustained effect ends immediately.
 ## {Forced Move}
 Effects with the {Forced Move} trait move a creature without using the creature’s own movement.  
 Forced movement does **not** trigger Reactions that would respond to {Move} actions and ignores normal movement penalties unless otherwise stated.
@@ -83,4 +85,4 @@ Diseases generally have stages, require treatment, and may have long-term conseq
 Effects with the {Curse} trait impose long-lasting, often supernatural hindrances on the target.  
 Curses are difficult to remove and may require specific rituals, conditions, or rare circumstances to break.
 ## {Rider}
-See [[1.4 Actions|Rider ※]]. 
+See [[1.3 Actions|Rider ※]]. 

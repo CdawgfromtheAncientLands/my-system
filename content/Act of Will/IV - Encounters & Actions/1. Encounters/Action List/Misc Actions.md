@@ -21,7 +21,7 @@ Roll the chosen **Skill** versus an appropriate **DC** determined by the GM.
 # Change Grip (⋄)
 [[Action & Effect Traits|{Manipulate}]]
 Requirements: You must be holding something.
-Effect: You shift your grip on an item you’re holding - changing hands, adjusting leverage, or reducing the number of hands committed to it. If you use this to release an item, it is a [[1.4 Actions|Free ✧ Action]] and the item will fall into your space.
+Effect: You shift your grip on an item you’re holding - changing hands, adjusting leverage, or reducing the number of hands committed to it. If you use this to release an item, it is a [[1.3 Actions|Free ✧ Action]] and the item will fall into your space.
 # Sustain (⋄)
 [[Action & Effect Traits|{Concentrate}]]
 Effect: You sustain a continuous effect. This action's traits may change depending on the effect.
@@ -53,7 +53,7 @@ Effect: You subtly call attention to a creature that is not [[2.1 Reading a Cond
 # Administer First Aid (⟐)
 [[Action & Effect Traits|{Concentrate}]], [[Action & Effect Traits|{Interact}]], [[Action & Effect Traits|{R.A.P.}]]
 Requirements: You are equipped with a First Aid Kit and have an [[Open Hand]] to use it - OR you are currently wielding said kit.
-Effect: Perform emergency medical treatment. Make a [[Medicine|First Aid]] check, DC 16. Choose **Stabilize** or **Emergency Care** - these count as [[1.4 Actions|Rider ※]]s on [[Misc Actions|Administer First Aid]].
+Effect: Perform emergency medical treatment. Make a [[Medicine|First Aid]] check, DC 16. Choose **Stabilize** or **Emergency Care** - these count as [[1.3 Actions|Rider ※]]s on [[Misc Actions|Administer First Aid]].
 
 | Strict Outcome | Stabilize                                                                                                                         | Emergency Care                                                                                                                                                        |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@ Requirements: You are holding an item you can actually throw.
 | ≤ 1/2 [[1.4 Secondary Attribute\|Carry Capacity]]  | 10 ft                                   | Heaving    |
 Anything heavier:
 - Requires two hands
-- Always requires a [[1.4 Actions|Major ⟐ Action]] toss
+- Always requires a [[1.3 Actions|Major ⟐ Action]] toss
 
 Effect (⋄): You throw an object - select a 5x5ft area within 6 [[1.3 Ranged Weapons|Range Increment]]s to throw it at. That is your "target". Roll [[Shooting|Throwing]] as if you were making a [[Shooting]] [[Strikes|Strike]] against said target. The base DC is 14 - affected by [[5. Weather Effects|Wind]] and [[3. Cover|Cover]] as projectiles.
 - **Crit Success.** The item lands where intended, and cannot be damaged, spill, or trigger (or anything similar) accidentally as a result of the throw - it's a perfect landing!

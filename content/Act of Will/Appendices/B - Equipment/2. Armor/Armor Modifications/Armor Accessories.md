@@ -65,7 +65,7 @@ You may secure a handheld item of 2kg or less to a [[Armor Accessories|Drop Harn
 **Bonuses**
 - If you'd drop an item attached to a [[Armor Accessories|Drop Harness]], it instead hangs securely but loosely from your armor, taking an [[Misc Actions|Interact]] action to properly stow.
 - If using an [[Misc Actions|Interact]] action to pick up items, you may pick up any number of items attached to the [[Armor Accessories|Drop Harness]] as long as you have the open hands to do so.
-- Once per [[1.1 Encounters|Turn]], you may [[Misc Actions|Interact]] to pick up an item on the [[Armor Accessories|Drop Harness]] as a [[1.4 Actions|Free ✧ Action]].
+- Once per [[1.1 Encounters|Turn]], you may [[Misc Actions|Interact]] to pick up an item on the [[Armor Accessories|Drop Harness]] as a [[1.3 Actions|Free ✧ Action]].
 
 **Penalties**
 - Suffer [[1.3 Advantage & Disadvantage|Disadvantage]] on any [[1.1 Skill Checks|Skill Check]]s made to squeeze through tight spaces.

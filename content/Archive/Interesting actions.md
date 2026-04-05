@@ -4,7 +4,7 @@ Requirements: You must be able to touch the targeted item.
 Effect (⋄): You attempt to sabotage, dislodge, or interfere with a piece of technology or gear held or worn by a creature. Roll **[[Finesse|Quick Fingers]]** or [[Finesse|Tinkering]] versus the target’s **[[1.2 Disciplines & Skills|Reflex]]** [[1.2 Disciplines & Skills|Skill DC]]. This check targets both the creature and the item simultaneously.
 - **Crit Success.** As Success, and the item is heavily disabled. It requires **two full [[Misc Actions|Interact]] (⟐)** actions to repair or re-secure before it becomes usable again.
 - **Success.** You minorly disable the item; it becomes unusable until fixed with **one Interact** action.
-- **Crit Fail.** The target may immediately **Grapple** you as a [[1.4 Actions|Reaction ↻]] and may choose to automatically succeed.
+- **Crit Fail.** The target may immediately **Grapple** you as a [[1.3 Actions|Reaction ↻]] and may choose to automatically succeed.
     
 Effect (⟐): Same as ⋄, but you gain one of the following benefits
 
@@ -27,7 +27,7 @@ Effect (⋄): Roll **Sleight of Hand** versus the target’s **Perception** [[1.
     
 - **Fail.** You fail to steal the item and the target notices.
     
-- **Crit Fail.** As Fail, and the target may attempt to **Grapple** you as a [[1.4 Actions|Reaction ↻]].
+- **Crit Fail.** As Fail, and the target may attempt to **Grapple** you as a [[1.3 Actions|Reaction ↻]].
     
 
 Effect (⟐): Same as ⋄, and you choose one:

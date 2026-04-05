@@ -13,10 +13,10 @@ Requirements: You have an open hand.
 Effect (⋄): Make an [[Melee|Unarmed]] check versus the highest of the target's [[1.2 Disciplines & Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]].
 - **Crit Success.** As Success, but target is [[2.1 Reading a Condition|Restrained]] by you and suffers 1d4 [[3.2 Stress|Stress]].
 - **Success.** Your target is [[2.7 Movement Conditions|Grabbed]] by you until the end of your next [[1.1 Encounters|Turn]].
-- **Crit Fail.** If you currently have your target [[2.7 Movement Conditions|Grabbed]] or [[2.7 Movement Conditions|Restrained]], they break free immediately. If not, they may [[Combat Maneuvers|Shove]] you as a [[1.4 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
+- **Crit Fail.** If you currently have your target [[2.7 Movement Conditions|Grabbed]] or [[2.7 Movement Conditions|Restrained]], they break free immediately. If not, they may [[Combat Maneuvers|Shove]] you as a [[1.3 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
 
 Effect (⟐): Add the following effects to Success (and, by extension, Crit Success):
-- You may immediately [[Movement Actions|Traverse]] up to half your [[1.4 Characteristics (WIP)|Speed]] as a [[1.4 Actions|Free ✧ Action]] afterward. 
+- You may immediately [[Movement Actions|Traverse]] up to half your [[1.4 Characteristics (WIP)|Speed]] as a [[1.3 Actions|Free ✧ Action]] afterward. 
 - Your target suffers 2 [[3.2 Stress|Stress]].  
 
 **Moving with a Grabbed Creature.** When you travel any distance with a creature [[2.1 Reading a Condition|Grabbed]], the action that causes your movement is also a [[Action & Effect Traits|{Forced Move}]] action. The amount of distance you can move with a [[2.1 Reading a Condition|Grabbed]] creature is dependent on their [[1.4 Characteristics (WIP)|Weight]] class compared to yours:
@@ -30,7 +30,7 @@ Requirements: You have an open hand.
 Effect (⋄): Make an [[Melee|Unarmed]] check versus the highest of the target's [[1.2 Disciplines & Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]].
 - **Crit Success.** As Success, but the target suffers 1d4 [[3.2 Stress|Stress]] and 10ft. of fall damage.
 - **Success.** Your target is knocked [[2.1 Reading a Condition|Prone]].
-- **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1.4 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
+- **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1.3 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
 
 Effect (⟐): Add the following effects to Success (and, by extension, Crit Success):
 - The target slips 5ft (10ft on a crit success) in a direction of your choice as they fall. This action gains the [[Action & Effect Traits|{Forced Move}]] trait.
@@ -41,8 +41,8 @@ Effect (⟐): Add the following effects to Success (and, by extension, Crit Succ
 Requirements: You have an open hand.
 Effect (⋄): Make an [[Melee|Unarmed]] check versus the highest of the target's [[1.2 Disciplines & Skills|Reflex]], [[Athletics|Muscle]], or [[Melee|Unarmed]].
 - **Crit Success.** As Success, but pushes an extra 5ft and they suffer 1d4 [[3.2 Stress|Stress]].  
-- **Success.** You push the target up to your [[1.1 Weapon Overview|Melee Reach]] away from you. You may follow them with a [[Movement Actions|Traverse]] or [[Movement Actions|Step]] as a [[1.4 Actions|Free ✧ Action]], but moving no further than the distance you pushed them.
-- **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1.4 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
+- **Success.** You push the target up to your [[1.1 Weapon Overview|Melee Reach]] away from you. You may follow them with a [[Movement Actions|Traverse]] or [[Movement Actions|Step]] as a [[1.3 Actions|Free ✧ Action]], but moving no further than the distance you pushed them.
+- **Crit Fail.** Your target may [[Combat Maneuvers|Grab]] you as a [[1.3 Actions|Reaction ↻]] and may choose to automatically succeed on the attempt instead of rolling for it.
 
 Effect (⟐): Add the following effects to Success (and, by extension, Crit Success):
 - You shove the target an additional 5ft, and may do so in any direction instead of just away.
@@ -78,5 +78,5 @@ Effect (⋄): You disguise a strike, exploit a blind angle, or manipulate the op
 Roll **[[Finesse|Quick Fingers]]** or **[[Guile|Deception]]** versus the target’s **[[Observation|Perception]]**.
 - **Crit Success.** As Success, but [[2.1 Reading a Condition|Vulnerable]] 2.
 - **Success.** The target becomes **[[2.1 Reading a Condition|Vulnerable]]** to **your next Strike** this round and suffers 1d4 [[3.2 Stress|Stress]].
-- **Crit Fail.** The target may immediately perform a **Disarm** against you as a [[1.4 Actions|Reaction ↻]] and may choose to **automatically critically succeed**.
+- **Crit Fail.** The target may immediately perform a **Disarm** against you as a [[1.3 Actions|Reaction ↻]] and may choose to **automatically critically succeed**.
 A creature you feint against is immune to your [[Combat Maneuvers|Feint]] attempts until the beginning of your next turn.

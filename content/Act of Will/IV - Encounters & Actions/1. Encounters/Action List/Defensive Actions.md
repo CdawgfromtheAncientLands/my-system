@@ -7,10 +7,10 @@ aliases:
   - Shield Block
 ---
 # Escape (⋄)
-[[1.3 Attacks|{Attack}]]
+[[1.4 Attacks|{Attack}]]
 Requirements: You must be affected by a [[2.1 Reading a Condition|Grabbed]], [[2.1 Reading a Condition|Immobilized]], or [[2.1 Reading a Condition|Restrained]] condition.
 Effect (⋄): Choose one source applying one of the above conditions to you. Attempt to break free by rolling either **[[Athletics|Acrobatics]]** or **[[Athletics|Muscle]]** versus the **DC of the effect**. If the source is a creature, you may instead roll [[Melee|Unarmed]]; at which point this action gains the [[Action & Effect Traits|{Wrestle}]] trait.
-- **Crit Success.** As Success, and you may immediately [[Movement Actions|Step]] as a [[1.4 Actions|Reaction ↻]].
+- **Crit Success.** As Success, and you may immediately [[Movement Actions|Step]] as a [[1.3 Actions|Reaction ↻]].
 - **Success.** You end all **Grabbed**, **Immobilized**, and **Restrained** conditions applied by the chosen source.
 - **Crit Fail.** You cannot attempt to  again until the start of your next [[1.1 Encounters|Turn]].
 
@@ -22,7 +22,7 @@ Requirements: You must be holding an item with the [[4.1 Shields|{Block}]] or [[
 Effect (⋄): You raise the item and apply its **Block** or **Parry** benefits until the start of your next [[1.1 Encounters|Turn]].
 
 Effect (⟐): As ⋄, but with these additional benefits: 
-- Until the start of your next turn, you gain an additional [[1.4 Actions|Reaction ↻]], which may only be used for:
+- Until the start of your next turn, you gain an additional [[1.3 Actions|Reaction ↻]], which may only be used for:
 	- Reactions in which you block, dodge, parry, or counterattack in a defensive fashion.
 
 **Limits:** You cannot raise the same item more than once in a turn, jackass. 
