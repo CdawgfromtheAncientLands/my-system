@@ -81,6 +81,28 @@
 }
 
 // ==========================================
+// SPACING — reduce the default 6rem ($topSpacing) gaps
+// ==========================================
+.page > #quartz-body {
+  // Top of sidebars: was $topSpacing (6rem ≈ 96px), now compact
+  .sidebar {
+    padding-top: 1.5rem;
+  }
+
+  // Top of the shared header row (TopNav / SubNav)
+  .page-header {
+    margin-top: 1.5rem;
+  }
+}
+
+// Narrow the outer page wrapper so sidebars don't eat content width
+.page {
+  max-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+// ==========================================
 // STICKY HEADER
 // ==========================================
 .page > #quartz-body > .center > .page-header {
