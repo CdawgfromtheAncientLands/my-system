@@ -11,7 +11,7 @@ title: My System
   <div class="title-sections">
     <a href="Act-of-Will" class="title-section-card internal">
       <span class="card-icon">⚔️</span>
-      <span class="card-title">Act of Will</span>
+      <span class="card-title">WILLPOWER</span>
       <span class="card-desc">Core rules, combat, and mechanics</span>
     </a>
     <a href="Down-Tikamac-Trail" class="title-section-card internal">

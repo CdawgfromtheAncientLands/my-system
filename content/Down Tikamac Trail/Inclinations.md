@@ -1,0 +1,10 @@
+**Champion** (Sun)  "I relentlessly uphold my values."
+**Mystic** (Moon)  "I see worlds hidden from others."
+**Operator** (Mercury) "I put pieces together and make things happen."
+**Romantic** (Venus) "I deeply follow my intuition."
+**Warrior** (Mars) "I prove myself through conflict."
+**Patron** (Jupiter) "I uplift and guide others."
+**Survivor** (Saturn) "I remain, despite hardship."
+**Visionary** (Uranus) "I transform the established order with my ideas."
+**Philosopher** (Neptune) "I wander toward deepest understanding."
+**Witness** (Pluto) “I accept and embrace change.”

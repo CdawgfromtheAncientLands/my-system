@@ -1,0 +1,1 @@
+You can choose to fail  the toughness save when injured

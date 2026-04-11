@@ -6,7 +6,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:quartz.jzhao.xyz)",
       "Bash(xargs sed:*)",
-      "Bash(python3 -c ':*)"
+      "Bash(python3 -c ':*)",
+      "Bash(git add:*)"
     ]
   }
 }
